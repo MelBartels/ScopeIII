@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DE23DAC-8645-406B-8E9D-46D68700C728}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>BartelsLibrary</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>BartelsLibrary</RootNamespace>
+    <StartupObject>ScopeIII.Common.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BartelsLibrary.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>BartelsLibrary.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.4.7.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>CopiedAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppStartupTemplate\Main.vb" />
+    <Compile Include="AppStartupTemplate\StartupShell.Designer.vb">
+      <DependentUpon>StartupShell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppStartupTemplate\StartupShell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppStartupTemplate\SimpleSplashScreen.Designer.vb">
+      <DependentUpon>SimpleSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppStartupTemplate\SimpleSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AZdouble.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassTemplate.vb" />
+    <Compile Include="Cloner.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConsoleHelper.vb" />
+    <Compile Include="Checksum.vb" />
+    <Compile Include="Encoder.vb" />
+    <Compile Include="InversionOfControl\TypeResolverHelper.vb" />
+    <Compile Include="InversionOfControl\InstanceResolverHelper.vb" />
+    <Compile Include="InversionOfControl\InversionOfControl.vb" />
+    <Compile Include="InversionOfControl\DependencyResolver.vb" />
+    <Compile Include="InversionOfControl\IDependencyResolver.vb" />
+    <Compile Include="LogService.vb" />
+    <Compile Include="ICommand.vb" />
+    <Compile Include="CommonShared.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainPrototype.vb" />
+    <Compile Include="Presentation\Progress\FrmProgressBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Progress\Progress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\Progress\ProgressBarPresenter.vb" />
+    <Compile Include="Presentation\Progress\ProgressMediator.vb" />
+    <Compile Include="UnitTests\TestGetInstance.vb" />
+    <Compile Include="UnitTests\TestChecksum.vb" />
+    <Compile Include="UnitTests\TestEncoder.vb" />
+    <Compile Include="UnitTests\TestInversionOfControlAdditional.vb" />
+    <Compile Include="UnitTests\TestInversionOfControl.vb" />
+    <Compile Include="UnitTests\TestDependencyResolver.vb" />
+    <Compile Include="UnitTests\TestConsoleHelper.vb" />
+    <Compile Include="UnitTests\TestIntToByteConversions.vb" />
+    <Compile Include="UnitTests\TestLogService.vb" />
+    <Compile Include="UnitTests\Presentation Tests\TestProgress\TestFrmProgressBar.vb" />
+    <Compile Include="UnitTests\Presentation Tests\TestProgress\TestFrmProgressBarBeginInvoke.vb" />
+    <Compile Include="UnitTests\Presentation Tests\TestProgress\TestProgressMediator.vb" />
+    <Compile Include="UnitTests\TestExceptionService.vb" />
+    <Compile Include="UnitTests\DelegateTest.vb" />
+    <Compile Include="UnitTests\FactoryTests.vb" />
+    <Compile Include="LoggingObserver.vb" />
+    <Compile Include="UnitTests\LoggingObserverTest.vb" />
+    <Compile Include="Observer\DelegateSigs.vb" />
+    <Compile Include="UnitTests\ObserverWithIDTest.vb" />
+    <Compile Include="Observer\ObserverWithID.vb" />
+    <Compile Include="UnitTests\TestIObserver.vb" />
+    <Compile Include="Settings\ISettingsBuilder.vb" />
+    <Compile Include="Settings\SettingsBase.vb" />
+    <Compile Include="UnitTests\TestCommonShared.vb" />
+    <Compile Include="PredicateWrappers.vb" />
+    <Compile Include="Presentation\AppMsgBox.vb" />
+    <Compile Include="Presentation\MVP\IMVPView.vb" />
+    <Compile Include="Presentation\MVP\MVPViewBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\FrmAddText.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\UserControlInvokeTest.designer.vb">
+      <DependentUpon>UserControlInvokeTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\UserControlInvokeTest.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\FrmUserControlThreadingTest.designer.vb">
+      <DependentUpon>FrmUserControlThreadingTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\FrmUserControlThreadingTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\Settings.vb" />
+    <Compile Include="SortCollection.vb" />
+    <Compile Include="UnitTests\HexAdapterTest.vb" />
+    <Compile Include="HexAdapter.vb" />
+    <Compile Include="StrongFinalTypes\CardinalDirection.vb" />
+    <Compile Include="StrongFinalTypes\Hemisphere.vb" />
+    <Compile Include="UnitTests\TestCollectionSort.vb" />
+    <Compile Include="DebugTrace.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExceptionService.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\HierarchicalTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hierarchical\IHierarchical.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hierarchical\StringHierarchicalAdapter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hierarchical\TextBoxHierarchicalAdapter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Hierarchical\TreeViewHierarchicalAdapter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ISettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ISettingsToPropGridAdapter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="eMath.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SeparationIxComparer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestEMath.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\InvokeTest.vb" />
+    <Compile Include="UnitTests\DelegatesAsChainOfResponsibilityTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\EventHandlerTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observer\IObservable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observer\IObserver.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observer\ObservableImp.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\ObserverTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\ComponentsInDataGrid\DataGridComboBoxColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentation\ComponentsInDataGrid\DataGridTimePickerColumn.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentation\ComponentsInDataGrid\FrmComboBoxInDataGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ComponentsInDataGrid\FrmDateTimeInDataGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestFormComboBoxInDataGrid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestFormDateTimeInDataGrid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\ErrorProviderFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\IRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\IRenderer2MeasurementsGauge.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\IRendererGauge.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\Layout.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\Controller.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\ControllerFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\IView.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVCUserCtrl\FrmTestUserCtrl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVCUserCtrl\TestGraphics.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVCUserCtrl\TestRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVCUserCtrl\TestUserCtrl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVCUserCtrl\TestUserCtrlController.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVCUserCtrl\TestUserCtrlControllerFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVC\FrmTestMVCM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVC\FrmTestMVCMController.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVC\FrmTestMVCMControllerControllerFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVC\TestDataGridCustomHeaders.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVC\TestMVCM.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\UserCtrl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\UserCtrlController.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\UserCtrlControllerFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\ViewWeb.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVC\ViewWin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\IMVPPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\IMVPUserCtrl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\IMVPUserCtrlGauges.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\IMVPUserCtrlGraphics.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\IMVPUserCtrlPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPPresenterBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPUserCtrl2MeasurementsGaugeBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPUserCtrlBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPUserCtrlGaugeBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPUserCtrlGaugesBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPUserCtrlGraphics.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPUserCtrlPresenterBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\MVP\MVPViewContainsGaugeCoordBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVPUserCtrl\FrmTestMVPUserCtrl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVPUserCtrl\TestMVPRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVPUserCtrl\TestMVPUserCtrl.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVPUserCtrl\TestMVPUserCtrlGraphics.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVPUserCtrl\TestMVPUserCtrlPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVP\FrmTestMVP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVP\FrmTestMVPStub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVP\ITestAlbumView.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVP\TestAlbum.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVP\TestAlbumPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\TestMVP\TestMVP.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presentation\RendererBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\FormPropertyGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\FormTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\FrmTextBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Presentation Tests\SimpleTestForms\FormTreeView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constants.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StringTokenizer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\StringTokenizerTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\IOState.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\IOType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\ISFT.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\ISFTFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\Rotation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\SettingsType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\SFTFacadeBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\SFTFacadeFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\SFTPrototype.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StrongFinalTypes\SFTSharedSupport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SFT Tests\SFTTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SFT Tests\SFTTest2.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SFT Tests\SFTTestExtended.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SFT Tests\SFTTestSingleItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SFT Tests\SFTTestTag.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SFT Tests\SFTUnitTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestCloner.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestPredicate.vb" />
+    <Compile Include="Units.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestDeleteFile.vb" />
+    <Compile Include="UOM.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="AppStartupTemplate\StartupShell.resx">
+      <DependentUpon>StartupShell.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppStartupTemplate\SimpleSplashScreen.resx">
+      <DependentUpon>SimpleSplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ComponentsInDataGrid\FrmComboBoxInDataGrid.resx">
+      <DependentUpon>FrmComboBoxInDataGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ComponentsInDataGrid\FrmDateTimeInDataGrid.resx">
+      <DependentUpon>FrmDateTimeInDataGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Progress\FrmProgressBar.resx">
+      <DependentUpon>FrmProgressBar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\Progress\Progress.resx">
+      <DependentUpon>Progress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\TestMVCUserCtrl\FrmTestUserCtrl.resx">
+      <DependentUpon>FrmTestUserCtrl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\TestMVCUserCtrl\TestUserCtrl.resx">
+      <DependentUpon>TestUserCtrl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\TestMVC\FrmTestMVCM.resx">
+      <DependentUpon>FrmTestMVCM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVC\UserCtrl.resx">
+      <DependentUpon>UserCtrl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVC\ViewWeb.resx">
+      <DependentUpon>ViewWeb.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVC\ViewWin.resx">
+      <DependentUpon>ViewWin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVP\MVPViewBase.resx">
+      <DependentUpon>MVPViewBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVP\MVPUserCtrl2MeasurementsGaugeBase.resx">
+      <DependentUpon>MVPUserCtrl2MeasurementsGaugeBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVP\MVPUserCtrlBase.resx">
+      <DependentUpon>MVPUserCtrlBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVP\MVPUserCtrlGaugeBase.resx">
+      <DependentUpon>MVPUserCtrlGaugeBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVP\MVPUserCtrlGaugesBase.resx">
+      <DependentUpon>MVPUserCtrlGaugesBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVP\MVPUserCtrlGraphics.resx">
+      <DependentUpon>MVPUserCtrlGraphics.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\MVP\MVPViewContainsGaugeCoordBase.resx">
+      <DependentUpon>MVPViewContainsGaugeCoordBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\TestMVPUserCtrl\FrmTestMVPUserCtrl.resx">
+      <DependentUpon>FrmTestMVPUserCtrl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\TestMVPUserCtrl\TestMVPUserCtrlGraphics.resx">
+      <DependentUpon>TestMVPUserCtrlGraphics.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\TestMVP\FrmTestMVP.resx">
+      <DependentUpon>FrmTestMVP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\TestMVP\FrmTestMVPStub.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTestMVPStub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\SimpleTestForms\FormPropertyGrid.resx">
+      <DependentUpon>FormPropertyGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\SimpleTestForms\FrmAddText.resx">
+      <DependentUpon>FrmAddText.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\SimpleTestForms\FrmTextBox.resx">
+      <DependentUpon>FrmTextBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\SimpleTestForms\FormTreeView.resx">
+      <DependentUpon>FormTreeView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\SimpleTestForms\UserControlInvokeTest.resx">
+      <DependentUpon>UserControlInvokeTest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitTests\Presentation Tests\SimpleTestForms\FrmUserControlThreadingTest.resx">
+      <DependentUpon>FrmUserControlThreadingTest.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

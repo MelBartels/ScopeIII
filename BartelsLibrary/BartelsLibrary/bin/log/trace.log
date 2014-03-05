@@ -1,0 +1,25 @@
+Logging message at: 5/21/2008 10:50:58 AM
+TestLogMsg
+=============================================================
+Logging message at: 5/21/2008 10:50:59 AM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 5/21/2008 10:51:00 AM
+Message: Exception caught for ProgressMediator BackgroundWorker thread.
+Exception Message: Thread was being aborted.
+Exception InnerException: 
+Exception StackTrace:    at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Delegate.DynamicInvoke(Object[] args)
+   at BartelsLibrary.ProgressMediator.backgroundWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\Progress\ProgressMediator.vb:line 128
+=============================================================
+Logging message at: 5/21/2008 10:51:01 AM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================

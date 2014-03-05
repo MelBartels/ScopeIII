@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\bin\BartelsLibrary.dll" total="88" failures="0" not-run="0" date="2008-02-26" time="21:07:19">
+  <environment nunit-version="2.4.0.2" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\bin" machine-name="MBARTELSCOE" user="MBartels" user-domain="CORP" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\bin\BartelsLibrary.dll" success="True" time="27.063" asserts="0">
+    <results>
+      <test-suite name="BartelsLibrary" success="True" time="27.063" asserts="0">
+        <results>
+          <test-suite name="DelegatesAsChainOfResponsibilityTest" success="True" time="0.031" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.DelegatesAsChainOfResponsibilityTest.TestCoR" executed="True" success="True" time="0.016" asserts="7" />
+              <test-case name="BartelsLibrary.DelegatesAsChainOfResponsibilityTest.TestMissingReturn" executed="True" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite name="DelegateTest" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.DelegateTest.TestDelegate" executed="True" success="True" time="0.016" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite name="EventHandlerTest" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.EventHandlerTest.TestEventHandler" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.EventHandlerTest.TestEventHandler2" executed="True" success="True" time="0.016" asserts="2" />
+              <test-case name="BartelsLibrary.EventHandlerTest.TestInheritedEvent" executed="True" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite name="FactoryTests" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.FactoryTests.TestCreateInstance" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.FactoryTests.TestFactoryBuild" executed="True" success="True" time="0.016" asserts="3" />
+              <test-case name="BartelsLibrary.FactoryTests.TestInvokeMethod" executed="True" success="True" time="0.000" asserts="4" />
+              <test-case name="BartelsLibrary.FactoryTests.TestInvokeMethodAcrossNamespaces" executed="True" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite name="FormTest" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.FormTest.TestFrmPropertyGrid" executed="True" success="True" time="0.016" asserts="1" />
+              <test-case name="BartelsLibrary.FormTest.TestFrmTextBox" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.FormTest.TestFrmTreeView" executed="True" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite name="FrmUserControlThreadingTest" success="True" time="10.813" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.FrmUserControlThreadingTest.TestShowDialog" executed="True" success="True" time="10.188" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite name="HexAdapterTest" success="True" time="0.031" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.HexAdapterTest.TestHexConversion" executed="True" success="True" time="0.031" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="HierarchicalTest" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.HierarchicalTest.HierarchicalTest" executed="True" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite name="InvokeTest" success="True" time="6.125" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.InvokeTest.TestInvoke" executed="True" success="True" time="6.094" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="LoggingObserverTest" success="True" time="0.047" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.LoggingObserverTest.TestLogging" executed="True" success="True" time="0.047" asserts="5" />
+            </results>
+          </test-suite>
+          <test-suite name="ObserverTest" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.ObserverTest.AttachDetachNotifyTests" executed="True" success="True" time="0.000" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="ObserverWithIDTest" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.ObserverWithIDTest.TestObserverWithID" executed="True" success="True" time="0.016" asserts="4" />
+            </results>
+          </test-suite>
+          <test-suite name="SFTUnitTest" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.SFTUnitTest.BaseObjectTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.CompareTest" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.SFTUnitTest.CreationTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.DescriptionTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.DisplayAllTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.EnumeratorTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.EnumTest" executed="True" success="True" time="0.000" asserts="4" />
+              <test-case name="BartelsLibrary.SFTUnitTest.FacadeNameTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.FactoryTest" executed="True" success="True" time="0.016" asserts="2" />
+              <test-case name="BartelsLibrary.SFTUnitTest.KeyAndFirstItemTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.MatchKeyTest" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.SFTUnitTest.MatchStringAndToStringTest" executed="True" success="True" time="0.000" asserts="3" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SelectedItemsTest" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SelectedItemTest" executed="True" success="True" time="0.000" asserts="5" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SetSelectedItemKeyTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SetSelectedItemNameTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SetSelectedItemSFTTest" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SharedISFT" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SingleItemTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.SFTUnitTest.SizeAndNextItemTest" executed="True" success="True" time="0.000" asserts="3" />
+              <test-case name="BartelsLibrary.SFTUnitTest.TestTag" executed="True" success="True" time="0.000" asserts="3" />
+              <test-case name="BartelsLibrary.SFTUnitTest.ToStringArrayTest" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.SFTUnitTest.Z_MustTestLast_ExtendedTest" executed="True" success="True" time="0.000" asserts="12" />
+              <test-case name="BartelsLibrary.SFTUnitTest.Z_MustTestLast_SharedISFT" executed="True" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite name="StringTokenizerTest" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.StringTokenizerTest.TestStringTokenizer" executed="True" success="True" time="0.000" asserts="14" />
+            </results>
+          </test-suite>
+          <test-suite name="TestCloner" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestCloner.TestCloner" executed="True" success="True" time="0.000" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="TestCollectionSort" success="True" time="0.078" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestCollectionSort.TestSortViaArray" executed="True" success="True" time="0.031" asserts="4" />
+            </results>
+          </test-suite>
+          <test-suite name="TestCommonShared" success="True" time="0.297" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestCommonShared.TestCreateDeleteDirectoryFileExists" executed="True" success="True" time="0.109" asserts="4" />
+              <test-case name="BartelsLibrary.TestCommonShared.TestDeleteDirectoryWithFiles" executed="True" success="True" time="0.047" asserts="4" />
+              <test-case name="BartelsLibrary.TestCommonShared.TestGetFullyQualifiedDirectory" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.TestCommonShared.TestGetIncrementedFilename" executed="True" success="True" time="0.000" asserts="4" />
+              <test-case name="BartelsLibrary.TestCommonShared.TestShellExecute" executed="True" success="True" time="0.125" asserts="1" />
+              <test-case name="BartelsLibrary.TestCommonShared.TestType" executed="True" success="True" time="0.000" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="TestDeleteFile" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestDeleteFile.TestDelete" executed="True" success="True" time="0.000" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="TestEMath" success="True" time="0.063" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestEMath.TestAngleRadFromPoints" executed="True" success="True" time="0.016" asserts="4" />
+              <test-case name="BartelsLibrary.TestEMath.TestBoundsSinCos" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.TestEMath.TestCot" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.TestEMath.TestfModulus" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.TestEMath.TestFractional" executed="True" success="True" time="0.000" asserts="3" />
+              <test-case name="BartelsLibrary.TestEMath.TestIntPow" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.TestEMath.TestQuadrant" executed="True" success="True" time="0.000" asserts="4" />
+              <test-case name="BartelsLibrary.TestEMath.TestRandomize" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.TestEMath.TestResolveNumToPrecision" executed="True" success="True" time="0.016" asserts="1" />
+              <test-case name="BartelsLibrary.TestEMath.TestReverseRad" executed="True" success="True" time="0.000" asserts="9" />
+              <test-case name="BartelsLibrary.TestEMath.TestSqr" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.TestEMath.TestValidRad" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.TestEMath.TestValidRadHalfPi" executed="True" success="True" time="0.000" asserts="10" />
+              <test-case name="BartelsLibrary.TestEMath.TestValidRadPi" executed="True" success="True" time="0.000" asserts="2" />
+              <test-case name="BartelsLibrary.TestEMath.TestWholeNum" executed="True" success="True" time="0.000" asserts="8" />
+            </results>
+          </test-suite>
+          <test-suite name="TestExceptionService" success="True" time="7.781" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestExceptionService.TestException" executed="True" success="True" time="7.781" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="TestFormComboBoxInDataGrid" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestFormComboBoxInDataGrid.ShowForm" executed="True" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite name="TestFormDateTimeInDataGrid" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestFormDateTimeInDataGrid.ShowForm" executed="True" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite name="TestFrmProgress" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestFrmProgress.TestFrm" executed="True" success="True" time="0.016" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite name="TestFrmProgressBarBeginInvoke" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestFrmProgressBarBeginInvoke.TestFrm" executed="True" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite name="TestGraphics" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestGraphics.TestUserCtrl" executed="True" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite name="TestLogService" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestLogService.TestLogMsg" executed="True" success="True" time="0.000" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="TestMVCM" success="True" time="0.234" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestMVCM.TestFormAndController" executed="True" success="True" time="0.234" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="TestMVP" success="True" time="0.359" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestMVP.TestFrm" executed="True" success="True" time="0.156" asserts="0" />
+              <test-case name="BartelsLibrary.TestMVP.TestShowDialogNewThread" executed="True" success="True" time="0.031" asserts="0" />
+              <test-case name="BartelsLibrary.TestMVP.TestStub" executed="True" success="True" time="0.000" asserts="2" />
+            </results>
+          </test-suite>
+          <test-suite name="TestMVPUserCtrl" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestMVPUserCtrl.TestFrm" executed="True" success="True" time="0.016" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite name="TestPredicate" success="True" time="0.094" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestPredicate.AdvancedPredicateFindAll" executed="True" success="True" time="0.016" asserts="6" />
+              <test-case name="BartelsLibrary.TestPredicate.AdvancedPredicateForEach" executed="True" success="True" time="0.000" asserts="3" />
+              <test-case name="BartelsLibrary.TestPredicate.FuncPredicateTest" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.TestPredicate.GenericListActions" executed="True" success="True" time="0.000" asserts="1" />
+              <test-case name="BartelsLibrary.TestPredicate.Predicates" executed="True" success="True" time="0.078" asserts="3" />
+              <test-case name="BartelsLibrary.TestPredicate.SubPredicateTest" executed="True" success="True" time="0.000" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="TestProgressMediator" success="True" time="0.156" asserts="0">
+            <results>
+              <test-case name="BartelsLibrary.TestProgressMediator.TestProgressMediator" executed="True" success="True" time="0.156" asserts="0" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
