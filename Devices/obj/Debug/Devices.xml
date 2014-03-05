@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Devices
+</name>
+</assembly>
+<members>
+<member name="M:ScopeIII.Devices.PreLoadConfig.IncludeTypes">
+ -----------------------------------------------------------------------------
+ <summary>
+ include types before serialize/deserialize that occurs in load/save
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	8/11/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Devices.DeviceBase.GetDeviceTemplate">
+ -----------------------------------------------------------------------------
+ <summary>
+ If DeviceTemplate missing, then create one before returning it.
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	11/17/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

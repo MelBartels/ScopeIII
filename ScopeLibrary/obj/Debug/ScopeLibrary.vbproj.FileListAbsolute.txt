@@ -1,0 +1,48 @@
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.Resources.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.vbproj.GenerateResource.Cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.Resources.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.pdb
+F:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.dll
+F:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.pdb
+F:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.xml
+F:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\nunit.framework.dll
+F:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.Resources.resources
+F:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.dll
+F:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.xml
+F:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.pdb
+F:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.pdb
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\ScopeLibrary.xml
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\BartelsLibrary.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Debug\nunit.framework.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.Resources.resources
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.xml
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.pdb
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\GenerateResource.read.1.tlog
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\GenerateResource.write.1.tlog
+F:\dev\astro\ScopeIII\ScopeLibrary\obj\Debug\ScopeLibrary.vbproj.GenerateResource.Cache

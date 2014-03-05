@@ -1,0 +1,90 @@
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\bin\Config.dll.config
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\bin\Common.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\bin\Common.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\bin\Common.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\obj\Debug\ScopeIII.Config.FrmSelectStrongFinalType.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\obj\Debug\ScopeIII.Config.MultiLineStringEditorForm.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\obj\Debug\Config.vbproj.GenerateResource.Cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\obj\Debug\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\obj\Debug\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Config\obj\Debug\Config.pdb
+D:\src\astro\ScopeIII\Config\bin\Config.dll.config
+D:\src\astro\ScopeIII\Config\bin\Config.dll
+D:\src\astro\ScopeIII\Config\bin\Config.pdb
+D:\src\astro\ScopeIII\Config\bin\Config.xml
+D:\src\astro\ScopeIII\Config\bin\Common.dll
+D:\src\astro\ScopeIII\Config\bin\Common.pdb
+D:\src\astro\ScopeIII\Config\bin\Common.xml
+D:\src\astro\ScopeIII\Config\obj\Debug\ResolveAssemblyReference.cache
+D:\src\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.FrmSelectStrongFinalType.resources
+D:\src\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.MultiLineStringEditorForm.resources
+D:\src\astro\ScopeIII\Config\obj\Debug\Config.vbproj.GenerateResource.Cache
+D:\src\astro\ScopeIII\Config\obj\Debug\Config.dll
+D:\src\astro\ScopeIII\Config\obj\Debug\Config.xml
+D:\src\astro\ScopeIII\Config\obj\Debug\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.dll.config
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.FrmSelectStrongFinalType.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.MultiLineStringEditorForm.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.vbproj.GenerateResource.Cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\BartelsLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\ScopeLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\BartelsLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\BartelsLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\ScopeLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\ScopeLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.dll.config
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\Config.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\BartelsLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\ScopeLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\BartelsLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\BartelsLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\ScopeLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\bin\ScopeLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.FrmSelectStrongFinalType.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.MultiLineStringEditorForm.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Config\obj\Debug\Config.pdb
+F:\dev\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.FrmSelectStrongFinalType.resources
+F:\dev\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.MultiLineStringEditorForm.resources
+F:\dev\astro\ScopeIII\Config\obj\Debug\Config.dll
+F:\dev\astro\ScopeIII\Config\obj\Debug\Config.xml
+F:\dev\astro\ScopeIII\Config\obj\Debug\Config.pdb
+F:\dev\astro\ScopeIII\Config\bin\Config.dll.config
+F:\dev\astro\ScopeIII\Config\bin\Config.dll
+F:\dev\astro\ScopeIII\Config\bin\Config.pdb
+F:\dev\astro\ScopeIII\Config\bin\Config.xml
+F:\dev\astro\ScopeIII\Config\bin\BartelsLibrary.dll
+F:\dev\astro\ScopeIII\Config\bin\nunit.framework.dll
+C:\dev\astro\ScopeIII\Config\bin\Config.dll.config
+C:\dev\astro\ScopeIII\Config\bin\Config.dll
+C:\dev\astro\ScopeIII\Config\bin\Config.pdb
+C:\dev\astro\ScopeIII\Config\bin\Config.xml
+C:\dev\astro\ScopeIII\Config\bin\BartelsLibrary.dll
+C:\dev\astro\ScopeIII\Config\bin\nunit.framework.dll
+C:\dev\astro\ScopeIII\Config\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.FrmSelectStrongFinalType.resources
+C:\dev\astro\ScopeIII\Config\obj\Debug\ScopeIII.Config.MultiLineStringEditorForm.resources
+C:\dev\astro\ScopeIII\Config\obj\Debug\Config.dll
+C:\dev\astro\ScopeIII\Config\obj\Debug\Config.xml
+C:\dev\astro\ScopeIII\Config\obj\Debug\Config.pdb
+C:\dev\astro\ScopeIII\Config\obj\Debug\GenerateResource.read.1.tlog
+C:\dev\astro\ScopeIII\Config\obj\Debug\GenerateResource.write.1.tlog
+F:\dev\astro\ScopeIII\Config\obj\Debug\Config.vbproj.GenerateResource.Cache

@@ -1,0 +1,243 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>2</_size>
+<_version>2</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+</SOAP-ENC:Array>
+<a3:Position id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Available>false</Available>
+<Init>false</Init>
+<PosName id="ref-6"></PosName>
+<ObjName xsi:null="1"/>
+<Epoch>0</Epoch>
+<RA href="#ref-7"/>
+<HA href="#ref-8"/>
+<Dec href="#ref-9"/>
+<Az href="#ref-10"/>
+<Alt href="#ref-11"/>
+<Axis3 href="#ref-12"/>
+<SidT href="#ref-13"/>
+<CoordErrorArray href="#ref-14"/>
+</a3:Position>
+<a3:Position id="ref-4" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Available>false</Available>
+<Init>false</Init>
+<PosName id="ref-15">3</PosName>
+<ObjName xsi:null="1"/>
+<Epoch>0</Epoch>
+<RA href="#ref-16"/>
+<HA href="#ref-17"/>
+<Dec href="#ref-18"/>
+<Az href="#ref-19"/>
+<Alt href="#ref-20"/>
+<Axis3 href="#ref-21"/>
+<SidT href="#ref-22"/>
+<CoordErrorArray href="#ref-23"/>
+</a3:Position>
+<a3:Coordinate id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-24"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-8" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-25"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-9" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-26"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-10" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-27"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-11" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-28"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-12" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-29"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-13" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-30"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:CoordErrorArray id="ref-14" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<pErrArray href="#ref-31"/>
+</a3:CoordErrorArray>
+<a3:Coordinate id="ref-16" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-32"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-17" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-33"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-18" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-34"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-19" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-35"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-20" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-36"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-21" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-37"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:Coordinate id="ref-22" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<Rad>0</Rad>
+<CoordExpArray href="#ref-38"/>
+<Name xsi:null="1"/>
+<SinRad>0</SinRad>
+<CosRad>0</CosRad>
+<pHoldRad>1.7976931348623157E+308</pHoldRad>
+</a3:Coordinate>
+<a3:CoordErrorArray id="ref-23" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ScopeIII.Coordinates/Coordinates%2C%20Version%3D1.0.3266.32065%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<pErrArray href="#ref-39"/>
+</a3:CoordErrorArray>
+<a1:ArrayList id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-27" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-28" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-35" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-36" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-37" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-38" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-39" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-40"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-40" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

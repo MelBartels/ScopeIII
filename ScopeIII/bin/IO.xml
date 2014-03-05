@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IO
+</name>
+</assembly>
+<members>
+<member name="T:ScopeIII.IO.IIO">
+ -----------------------------------------------------------------------------
+ <summary>
+ Interface for all IO, where implementations include SerialPortFacade, TCPserverFacade, and TCPclientFacade.
+ Settings are stored in and retrieved from a ISettingsFacade.  This allows settings to be manipulated
+ in an independent manner.
+ PortName is used as the unique IO channel identifier.  Trace files use PortName.
+ SettingsName is the key name to retrieve and save settings from the configuration.
+ LoadSettings attempts to load from configuration.  If not found, programmed default values are used.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	9/8/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.IO.IPsettings">
+ -----------------------------------------------------------------------------
+ Project	 : IO
+ Class	 : IO.IPsettings
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Class holding an IP address and port number.
+ Cannot use IPEndPoint and IPAddress directly as they do not have default constructors,
+ causing reflection to fail during the configuration manager's save.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	8/18/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.IO.PreLoadConfig.IncludeTypes">
+ -----------------------------------------------------------------------------
+ <summary>
+ include types before serialize/deserialize that occurs in load/save
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	8/11/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

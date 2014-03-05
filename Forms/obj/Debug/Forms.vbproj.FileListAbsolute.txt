@@ -1,0 +1,495 @@
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Forms.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Forms.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Forms.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Common.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Coordinates.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\IO.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Common.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Common.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Devices.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Coordinates.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Coordinates.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\IO.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\IO.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCompareZ12.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmConvert.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxCtrl.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxSim.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncoder.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter2AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter3AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterOneTwo.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterPosition.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterSite.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterZ123.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge2AxisCoordOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge3AxisCoordOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordsOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugePositionOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOKPropGrid.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmIOTerminal.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.Resources.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCoordinateObserver.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmValueObserver.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmPrecessDatafiles.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmProgressBar.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.Progress.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmQueryDatafiles.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSaguaro.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrorsInput.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrors.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRefractionAirMass.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowSettings.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSliderOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestCfg.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestException.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl3AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlAxisEncoderTranslator.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisEncoderTranslator.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlEncoder.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlDatafile.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge2AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge3AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugeCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugePosition.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlLogging.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlObjectLibrary.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlOneTwo.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCelestialErrors.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPosition.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPropGrid.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlSite.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlTerminal.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlZ123.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTwoAxisEncoderTranslator.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\Forms.vbproj.GenerateResource.Cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\Forms.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\Forms.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Forms\obj\Debug\Forms.pdb
+D:\src\astro\ScopeIII\Forms\bin\Forms.dll
+D:\src\astro\ScopeIII\Forms\bin\Forms.pdb
+D:\src\astro\ScopeIII\Forms\bin\Forms.xml
+D:\src\astro\ScopeIII\Forms\bin\Common.dll
+D:\src\astro\ScopeIII\Forms\bin\Config.dll
+D:\src\astro\ScopeIII\Forms\bin\Coordinates.dll
+D:\src\astro\ScopeIII\Forms\bin\Devices.dll
+D:\src\astro\ScopeIII\Forms\bin\IO.dll
+D:\src\astro\ScopeIII\Forms\bin\Common.pdb
+D:\src\astro\ScopeIII\Forms\bin\Common.xml
+D:\src\astro\ScopeIII\Forms\bin\Devices.pdb
+D:\src\astro\ScopeIII\Forms\bin\Devices.xml
+D:\src\astro\ScopeIII\Forms\bin\Coordinates.pdb
+D:\src\astro\ScopeIII\Forms\bin\Coordinates.xml
+D:\src\astro\ScopeIII\Forms\bin\IO.pdb
+D:\src\astro\ScopeIII\Forms\bin\IO.xml
+D:\src\astro\ScopeIII\Forms\bin\Config.pdb
+D:\src\astro\ScopeIII\Forms\bin\Config.xml
+D:\src\astro\ScopeIII\Forms\obj\Debug\ResolveAssemblyReference.cache
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCompareZ12.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmConvert.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxCtrl.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxSim.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncoder.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter2AxisCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter3AxisCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterOneTwo.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterPosition.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterSite.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterZ123.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge2AxisCoordOK.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge3AxisCoordOK.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordOK.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordsOK.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugePositionOK.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOKPropGrid.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOK.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmIOTerminal.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.Resources.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCoordinateObserver.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmValueObserver.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmPrecessDatafiles.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmQueryDatafiles.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSaguaro.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrorsInput.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrors.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRefractionAirMass.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowSettings.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSliderOK.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestCfg.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestException.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl3AxisCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlAxisEncoderTranslator.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisEncoderTranslator.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlEncoder.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlDatafile.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge2AxisCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge3AxisCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugeCoord.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugePosition.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlLogging.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlObjectLibrary.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlOneTwo.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCelestialErrors.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPosition.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPropGrid.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlSite.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlTerminal.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlZ123.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTwoAxisEncoderTranslator.resources
+D:\src\astro\ScopeIII\Forms\obj\Debug\Forms.vbproj.GenerateResource.Cache
+D:\src\astro\ScopeIII\Forms\obj\Debug\Forms.dll
+D:\src\astro\ScopeIII\Forms\obj\Debug\Forms.xml
+D:\src\astro\ScopeIII\Forms\obj\Debug\Forms.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Forms.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Forms.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Forms.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Coordinates.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\IO.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Devices.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Coordinates.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Coordinates.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\IO.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\IO.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCompareZ12.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmConvert.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxCtrl.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxSim.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncoder.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter2AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter3AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterOneTwo.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterPosition.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterSite.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterZ123.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge2AxisCoordOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge3AxisCoordOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugePositionOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOKPropGrid.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmIOTerminal.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.Resources.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCoordinateObserver.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmValueObserver.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmPrecessDatafiles.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmQueryDatafiles.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSaguaro.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrorsInput.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrors.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRefractionAirMass.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowSettings.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSliderOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestCfg.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestException.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl3AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlAxisEncoderTranslator.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisEncoderTranslator.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlEncoder.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlDatafile.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge2AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge3AxisCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugeCoord.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugePosition.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlLogging.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlObjectLibrary.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlOneTwo.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCelestialErrors.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPosition.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPropGrid.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlSite.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlTerminal.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlZ123.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTwoAxisEncoderTranslator.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.vbproj.GenerateResource.Cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\BartelsLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\ScopeLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\ScopeLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\ScopeLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\BartelsLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\BartelsLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBox.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmDataFileConverter.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCompareZ12.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmConvert.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmDataFileConverter.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxCtrl.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxSim.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBox.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncoder.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter2AxisCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter3AxisCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterOneTwo.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterPosition.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterSite.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterZ123.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge2AxisCoordOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge3AxisCoordOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugePositionOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOKPropGrid.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmIOTerminal.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.Resources.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCoordinateObserver.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmValueObserver.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmPrecessDatafiles.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmQueryDatafiles.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSaguaro.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrorsInput.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrors.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRefractionAirMass.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowSettings.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSliderOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestCfg.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestException.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl3AxisCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlAxisEncoderTranslator.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisEncoderTranslator.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlEncoder.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlDatafile.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge2AxisCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge3AxisCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugeCoord.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugePosition.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlLogging.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlObjectLibrary.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlOneTwo.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCelestialErrors.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPosition.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPropGrid.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlSite.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlTerminal.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlZ123.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTwoAxisEncoderTranslator.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\Forms.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Forms.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Forms.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Forms.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\BartelsLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Config.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Coordinates.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Devices.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\IO.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\ScopeLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\ScopeLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\ScopeLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Devices.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Devices.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Coordinates.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Coordinates.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\IO.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\IO.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\BartelsLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\BartelsLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Config.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmArcGaugeOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmArcGaugeOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderCoordGaugesOK.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderScalarGaugesOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderScalarGaugesOK.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderCoordGaugesOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCompareZ12.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmConvert.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmArcGaugeOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderScalarGaugesOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmDataFileConverter.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxCtrl.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxSim.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBox.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncoder.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter2AxisCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter3AxisCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterOneTwo.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterPosition.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterSite.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterZ123.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge2AxisCoordOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge3AxisCoordOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderCoordGaugesOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugePositionOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOKPropGrid.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmIOTerminal.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.Resources.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCoordinateObserver.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmValueObserver.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmPrecessDatafiles.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmQueryDatafiles.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSaguaro.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrorsInput.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrors.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRefractionAirMass.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowSettings.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSliderOK.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestCfg.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestException.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl3AxisCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlAxisEncoderTranslator.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisEncoderTranslator.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlEncoder.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlDatafile.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge2AxisCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge3AxisCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugeCoord.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugePosition.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlLogging.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlObjectLibrary.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlOneTwo.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCelestialErrors.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPosition.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPropGrid.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlSite.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlTerminal.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlZ123.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTwoAxisEncoderTranslator.resources
+F:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.dll
+F:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.xml
+F:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.pdb
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCompareZ12.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmConvert.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmArcGaugeOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderScalarGaugesOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmDataFileConverter.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxCtrl.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBoxSim.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncodersBox.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEncoder.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter2AxisCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnter3AxisCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterOneTwo.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterPosition.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterSite.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmEnterZ123.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge2AxisCoordOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGauge3AxisCoordOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugeCoordOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRenderCoordGaugesOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGaugePositionOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOKPropGrid.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmGraphOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmIOTerminal.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.Resources.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmCoordinateObserver.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmValueObserver.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmPrecessDatafiles.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmQueryDatafiles.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSaguaro.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrorsInput.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowCelestialErrors.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmRefractionAirMass.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmShowSettings.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmSliderOK.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestCfg.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTestException.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl3AxisCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlAxisEncoderTranslator.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrl2AxisEncoderTranslator.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlEncoder.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlDatafile.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge2AxisCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGauge3AxisCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugeCoord.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlGaugePosition.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlLogging.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlObjectLibrary.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlOneTwo.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlCelestialErrors.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPosition.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlPropGrid.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlSite.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlTerminal.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.UserCtrlZ123.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\ScopeIII.Forms.FrmTwoAxisEncoderTranslator.resources
+C:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.dll
+C:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.xml
+C:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.pdb
+C:\dev\astro\ScopeIII\Forms\bin\Forms.dll
+C:\dev\astro\ScopeIII\Forms\bin\Forms.pdb
+C:\dev\astro\ScopeIII\Forms\bin\Forms.xml
+C:\dev\astro\ScopeIII\Forms\bin\BartelsLibrary.dll
+C:\dev\astro\ScopeIII\Forms\bin\Config.dll
+C:\dev\astro\ScopeIII\Forms\bin\Coordinates.dll
+C:\dev\astro\ScopeIII\Forms\bin\Devices.dll
+C:\dev\astro\ScopeIII\Forms\bin\IO.dll
+C:\dev\astro\ScopeIII\Forms\bin\nunit.framework.dll
+C:\dev\astro\ScopeIII\Forms\bin\ScopeLibrary.dll
+C:\dev\astro\ScopeIII\Forms\bin\ScopeLibrary.pdb
+C:\dev\astro\ScopeIII\Forms\bin\ScopeLibrary.xml
+C:\dev\astro\ScopeIII\Forms\bin\Devices.pdb
+C:\dev\astro\ScopeIII\Forms\bin\Devices.xml
+C:\dev\astro\ScopeIII\Forms\bin\Coordinates.pdb
+C:\dev\astro\ScopeIII\Forms\bin\Coordinates.xml
+C:\dev\astro\ScopeIII\Forms\bin\IO.pdb
+C:\dev\astro\ScopeIII\Forms\bin\IO.xml
+C:\dev\astro\ScopeIII\Forms\bin\Config.pdb
+C:\dev\astro\ScopeIII\Forms\bin\Config.xml
+C:\dev\astro\ScopeIII\Forms\obj\Debug\GenerateResource.read.1.tlog
+C:\dev\astro\ScopeIII\Forms\obj\Debug\GenerateResource.write.1.tlog
+C:\dev\astro\ScopeIII\Forms\bin\xunit.dll
+F:\dev\astro\ScopeIII\Forms\bin\Forms.dll
+F:\dev\astro\ScopeIII\Forms\bin\Forms.pdb
+F:\dev\astro\ScopeIII\Forms\bin\Forms.xml
+F:\dev\astro\ScopeIII\Forms\bin\BartelsLibrary.dll
+F:\dev\astro\ScopeIII\Forms\bin\Config.dll
+F:\dev\astro\ScopeIII\Forms\bin\Coordinates.dll
+F:\dev\astro\ScopeIII\Forms\bin\Devices.dll
+F:\dev\astro\ScopeIII\Forms\bin\IO.dll
+F:\dev\astro\ScopeIII\Forms\bin\nunit.framework.dll
+F:\dev\astro\ScopeIII\Forms\bin\ScopeLibrary.dll
+F:\dev\astro\ScopeIII\Forms\bin\xunit.dll
+F:\dev\astro\ScopeIII\Forms\bin\Config.pdb
+F:\dev\astro\ScopeIII\Forms\bin\Config.xml
+F:\dev\astro\ScopeIII\Forms\bin\Coordinates.pdb
+F:\dev\astro\ScopeIII\Forms\bin\Coordinates.xml
+F:\dev\astro\ScopeIII\Forms\bin\Devices.pdb
+F:\dev\astro\ScopeIII\Forms\bin\Devices.xml
+F:\dev\astro\ScopeIII\Forms\bin\IO.pdb
+F:\dev\astro\ScopeIII\Forms\bin\IO.xml
+F:\dev\astro\ScopeIII\Forms\bin\ScopeLibrary.pdb
+F:\dev\astro\ScopeIII\Forms\bin\ScopeLibrary.xml
+F:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.vbprojResolveAssemblyReference.cache
+F:\dev\astro\ScopeIII\Forms\obj\Debug\Forms.vbproj.GenerateResource.Cache

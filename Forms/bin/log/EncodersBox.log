@@ -1,0 +1,7 @@
+EncodersBox status: Build TCP Client
+EncodersBox status: CmdSent
+PriAxisEncoder encoder value: 3000
+PriAxisEncoder status: ValidRead
+SecAxisEncoder encoder value: 6000
+SecAxisEncoder status: ValidRead
+EncodersBox status: Valid Response

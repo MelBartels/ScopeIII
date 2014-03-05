@@ -1,0 +1,319 @@
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\ScopeIII.exe.manifest
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\ScopeIII.application
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\ScopeIII.exe
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\ScopeIII.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\ScopeIII.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Common.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Coordinates.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Forms.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\IO.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Devices.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Common.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Common.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\IO.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\IO.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Forms.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Forms.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Coordinates.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\bin\Coordinates.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SimpleSplashScreen.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestScopeIII.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Resources.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Shell.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SplashScreen.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestDataGridView.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestListView.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestThreading.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.vbproj.GenerateResource.Cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe.manifest
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.application
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.manifest
+D:\src\astro\ScopeIII\ScopeIII\bin\ScopeIII.application
+D:\src\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe
+D:\src\astro\ScopeIII\ScopeIII\bin\ScopeIII.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\ScopeIII.xml
+D:\src\astro\ScopeIII\ScopeIII\bin\Common.dll
+D:\src\astro\ScopeIII\ScopeIII\bin\Config.dll
+D:\src\astro\ScopeIII\ScopeIII\bin\Coordinates.dll
+D:\src\astro\ScopeIII\ScopeIII\bin\Devices.dll
+D:\src\astro\ScopeIII\ScopeIII\bin\Forms.dll
+D:\src\astro\ScopeIII\ScopeIII\bin\IO.dll
+D:\src\astro\ScopeIII\ScopeIII\bin\Devices.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\Devices.xml
+D:\src\astro\ScopeIII\ScopeIII\bin\Config.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\Config.xml
+D:\src\astro\ScopeIII\ScopeIII\bin\Common.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\Common.xml
+D:\src\astro\ScopeIII\ScopeIII\bin\IO.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\IO.xml
+D:\src\astro\ScopeIII\ScopeIII\bin\Forms.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\Forms.xml
+D:\src\astro\ScopeIII\ScopeIII\bin\Coordinates.pdb
+D:\src\astro\ScopeIII\ScopeIII\bin\Coordinates.xml
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ResolveAssemblyReference.cache
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SimpleSplashScreen.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestScopeIII.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Resources.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Shell.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SplashScreen.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestDataGridView.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestListView.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestThreading.resources
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.vbproj.GenerateResource.Cache
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe.manifest
+D:\src\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.application
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.manifest
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.application
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SimpleSplashScreen.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestScopeIII.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Resources.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SplashScreen.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestDataGridView.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestListView.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestThreading.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.vbproj.GenerateResource.Cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe.manifest
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.application
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.StartupShell.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\nunit.framework.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCTEST.HLP
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCLIB04.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCTEST.exe
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SimpleSplashScreen.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestScopeIII.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Resources.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.StartupShell.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SplashScreen.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestDataGridView.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestListView.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestThreading.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCTEST.HLP
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCLIB04.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCTEST.exe
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.manifest
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.application
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe.manifest
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.application
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCTEST.HLP
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCLIB04.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\NMCTEST.exe
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.manifest
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.application
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\nunit.framework.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.dll
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Devices.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Coordinates.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\IO.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Config.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.pdb
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\Forms.xml
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ResolveAssemblyReference.cache
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SimpleSplashScreen.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestScopeIII.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Resources.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.StartupShell.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SplashScreen.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestDataGridView.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestListView.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestThreading.resources
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.vbproj.GenerateResource.Cache
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe.manifest
+F:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.application
+K:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+K:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+K:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+K:\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+K:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+K:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+K:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+K:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+E:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+E:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+E:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+E:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.config
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.xml
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.pdb
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SimpleSplashScreen.resources
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestScopeIII.resources
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Resources.resources
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.StartupShell.resources
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SplashScreen.resources
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestDataGridView.resources
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestListView.resources
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestThreading.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SimpleSplashScreen.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestScopeIII.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.Resources.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.StartupShell.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.SplashScreen.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestDataGridView.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestListView.resources
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.FrmTestThreading.resources
+C:\dev\astro\ScopeIII\ScopeIII\bin\NMCTEST.HLP
+C:\dev\astro\ScopeIII\ScopeIII\bin\NMCLIB04.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\NMCTEST.exe
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.manifest
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.application
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.xml
+C:\dev\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\Config.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\Coordinates.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\Devices.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\Forms.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\IO.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\nunit.framework.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.dll
+C:\dev\astro\ScopeIII\ScopeIII\bin\Devices.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\Devices.xml
+C:\dev\astro\ScopeIII\ScopeIII\bin\Coordinates.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\Coordinates.xml
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.xml
+C:\dev\astro\ScopeIII\ScopeIII\bin\IO.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\IO.xml
+C:\dev\astro\ScopeIII\ScopeIII\bin\Config.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\Config.xml
+C:\dev\astro\ScopeIII\ScopeIII\bin\Forms.pdb
+C:\dev\astro\ScopeIII\ScopeIII\bin\Forms.xml
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe.manifest
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.application
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\GenerateResource.read.1.tlog
+C:\dev\astro\ScopeIII\ScopeIII\obj\Debug\GenerateResource.write.1.tlog
+C:\dev\astro\ScopeIII\ScopeIII\bin\xunit.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\NMCTEST.HLP
+F:\dev\astro\ScopeIII\ScopeIII\bin\NMCLIB04.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\NMCTEST.exe
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe.manifest
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.application
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.exe
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeIII.xml
+F:\dev\astro\ScopeIII\ScopeIII\bin\BartelsLibrary.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\Config.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\Coordinates.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\Devices.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\Forms.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\IO.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\nunit.framework.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\xunit.dll
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\ScopeLibrary.xml
+F:\dev\astro\ScopeIII\ScopeIII\bin\Config.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\Config.xml
+F:\dev\astro\ScopeIII\ScopeIII\bin\Coordinates.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\Coordinates.xml
+F:\dev\astro\ScopeIII\ScopeIII\bin\Devices.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\Devices.xml
+F:\dev\astro\ScopeIII\ScopeIII\bin\Forms.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\Forms.xml
+F:\dev\astro\ScopeIII\ScopeIII\bin\IO.pdb
+F:\dev\astro\ScopeIII\ScopeIII\bin\IO.xml
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.exe.manifest
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.application
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.vbprojResolveAssemblyReference.cache
+F:\dev\astro\ScopeIII\ScopeIII\obj\Debug\ScopeIII.vbproj.GenerateResource.Cache

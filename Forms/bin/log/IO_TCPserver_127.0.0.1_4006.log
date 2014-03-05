@@ -1,0 +1,6 @@
+
+Status: Opening port IO_TCPserver_127.0.0.1_4006
+Status: Connected.
+Xmt: hello from terminal 1
+Rec: hello from terminal 2
+Status: Close Port

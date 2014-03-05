@@ -1,0 +1,360 @@
+Logging message at: 7/7/2008 3:43:20 PM
+Message: An error has occured.  The application is quitting.
+Exception Message: Field not found: 'BartelsLibrary.Settings.ArcGaugeBrightColor'.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.Main.loadSettings()
+   at ScopeIII.Main.Main(String[]& args) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\Mains\Main.vb:line 62
+=============================================================
+Logging message at: 7/10/2008 9:20:16 PM
+Exception Message: Conversion from type 'Coordinate' to type 'Double' is not valid.
+Exception InnerException: 
+Exception StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at ScopeIII.Forms.ArcGaugeRenderer.MeasurementFromObjectToRender() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\Renderers\ArcGaugeRenderer.vb:line 154
+   at ScopeIII.Forms.ArcGaugeRenderer.renderPointer() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\Renderers\ArcGaugeRenderer.vb:line 325
+   at ScopeIII.Forms.ArcGaugeRenderer.Render(Graphics& g, Int32 width, Int32 height) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\Renderers\ArcGaugeRenderer.vb:line 139
+   at BartelsLibrary.MVPUserCtrlGraphics.paintSubr(Graphics& g) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGraphics.vb:line 139
+   at BartelsLibrary.MVPUserCtrlGraphics.Render() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGraphics.vb:line 73
+   at BartelsLibrary.MVPUserCtrlGraphics.newSize(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGraphics.vb:line 79
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.SetWindowPos(HandleRef hWnd, HandleRef hWndInsertAfter, Int32 x, Int32 y, Int32 cx, Int32 cy, Int32 flags)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.SetBounds(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.set_Size(Size value)
+   at BartelsLibrary.MVPUserCtrlGaugeBase.NewSize(Int32 width, Int32 height) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGaugeBase.vb:line 63
+   at ScopeIII.Forms.UserCtrlGaugeCoord.resizer(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\UserCtrls\GaugeCoord\UserCtrlGaugeCoord.vb:line 71
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.UserControl.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.SetWindowPos(HandleRef hWnd, HandleRef hWndInsertAfter, Int32 x, Int32 y, Int32 cx, Int32 cy, Int32 flags)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.SetBounds(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.set_Size(Size value)
+   at ScopeIII.Forms.FrmGaugeCoordsOK.resizer(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\GaugeCoordsOK\FrmGaugeCoordsOK.vb:line 211
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.Form.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.SetWindowPos(HandleRef hWnd, HandleRef hWndInsertAfter, Int32 x, Int32 y, Int32 cx, Int32 cy, Int32 flags)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.SetBounds(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.set_Width(Int32 value)
+   at ScopeIII.Forms.FrmGaugeCoordsOK.FrmGaugeCoordsOK_Load(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\GaugeCoordsOK\FrmGaugeCoordsOK.vb:line 217
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at BartelsLibrary.MVPViewBase.ShowDialog() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPViewBase.vb:line 101
+   at BartelsLibrary.MVPPresenterBase.ShowDialog() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPPresenterBase.vb:line 75
+   at ScopeIII.MainGaugeCoordsOK.work() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\Mains\MainGaugeCoordsOK.vb:line 55
+   at BartelsLibrary.MainPrototype.tryCatchWork() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\MainPrototype.vb:line 70
+=============================================================
+Logging message at: 7/10/2008 9:26:43 PM
+Exception Message: Conversion from type 'Coordinate' to type 'Double' is not valid.
+Exception InnerException: 
+Exception StackTrace:    at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at ScopeIII.Forms.ArcGaugeRenderer.MeasurementFromObjectToRender() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\Renderers\ArcGaugeRenderer.vb:line 154
+   at ScopeIII.Forms.ArcGaugeRenderer.renderPointer() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\Renderers\ArcGaugeRenderer.vb:line 325
+   at ScopeIII.Forms.ArcGaugeRenderer.Render(Graphics& g, Int32 width, Int32 height) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\Renderers\ArcGaugeRenderer.vb:line 139
+   at BartelsLibrary.MVPUserCtrlGraphics.paintSubr(Graphics& g) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGraphics.vb:line 139
+   at BartelsLibrary.MVPUserCtrlGraphics.Render() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGraphics.vb:line 73
+   at BartelsLibrary.MVPUserCtrlGraphics.newSize(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGraphics.vb:line 79
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.SetWindowPos(HandleRef hWnd, HandleRef hWndInsertAfter, Int32 x, Int32 y, Int32 cx, Int32 cy, Int32 flags)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.SetBounds(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.set_Size(Size value)
+   at BartelsLibrary.MVPUserCtrlGaugeBase.NewSize(Int32 width, Int32 height) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPUserCtrlGaugeBase.vb:line 63
+   at ScopeIII.Forms.UserCtrlGaugeCoord.resizer(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\UserCtrls\GaugeCoord\UserCtrlGaugeCoord.vb:line 71
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.UserControl.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.SetWindowPos(HandleRef hWnd, HandleRef hWndInsertAfter, Int32 x, Int32 y, Int32 cx, Int32 cy, Int32 flags)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.SetBounds(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.set_Size(Size value)
+   at ScopeIII.Forms.FrmGaugeCoordsOK.resizer(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\GaugeCoordsOK\FrmGaugeCoordsOK.vb:line 211
+   at System.Windows.Forms.Control.OnResize(EventArgs e)
+   at System.Windows.Forms.Form.OnResize(EventArgs e)
+   at System.Windows.Forms.Control.OnSizeChanged(EventArgs e)
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.SetWindowPos(HandleRef hWnd, HandleRef hWndInsertAfter, Int32 x, Int32 y, Int32 cx, Int32 cy, Int32 flags)
+   at System.Windows.Forms.Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.SetBounds(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)
+   at System.Windows.Forms.Control.set_Width(Int32 value)
+   at ScopeIII.Forms.FrmGaugeCoordsOK.FrmGaugeCoordsOK_Load(Object sender, EventArgs e) in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\GaugeCoordsOK\FrmGaugeCoordsOK.vb:line 217
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.set_Visible(Boolean value)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at System.Windows.Forms.Form.ShowDialog()
+   at BartelsLibrary.MVPViewBase.ShowDialog() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPViewBase.vb:line 101
+   at BartelsLibrary.MVPPresenterBase.ShowDialog() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPPresenterBase.vb:line 75
+   at ScopeIII.MainGaugeCoordsOK.work() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\Mains\MainGaugeCoordsOK.vb:line 55
+   at BartelsLibrary.MainPrototype.tryCatchWork() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\MainPrototype.vb:line 70
+=============================================================
+Logging message at: 7/15/2008 9:37:50 PM
+Exception Message: Unable to cast object of type 'ScopeIII.Forms.FrmRenderCoordGaugesOK' to type 'ScopeIII.Forms.FrmArcGaugeOK'.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.Forms.RenderScalarGaugesOKPresenter.init() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Forms\RenderScalarGaugesOK\RenderScalarGaugesOKPresenter.vb:line 93
+   at BartelsLibrary.MVPPresenterBase.set_IMVPView(IMVPView Value) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\MVP\MVPPresenterBase.vb:line 60
+   at ScopeIII.MainRenderScalarGaugesOK.work() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\ScopeIII\Mains\MainRenderScalarGaugesOK.vb:line 54
+   at BartelsLibrary.MainPrototype.tryCatchWork() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\MainPrototype.vb:line 70
+=============================================================
+Logging message at: 8/20/2008 2:53:29 PM
+Message: Exception caught for ProgressMediator BackgroundWorker thread.
+Exception Message: Exception has been thrown by the target of an invocation.
+Exception InnerException: Value of '101' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+Exception StackTrace:    at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Delegate.DynamicInvoke(Object[] args)
+   at BartelsLibrary.ProgressMediator.backgroundWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\Progress\ProgressMediator.vb:line 161
+=============================================================
+Logging message at: 8/20/2008 2:53:30 PM
+Message: Exception caught for ProgressMediator BackgroundWorker thread.
+Exception Message: Exception has been thrown by the target of an invocation.
+Exception InnerException: Value of '101' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+Exception StackTrace:    at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Delegate.DynamicInvoke(Object[] args)
+   at BartelsLibrary.ProgressMediator.backgroundWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\Progress\ProgressMediator.vb:line 161
+=============================================================
+Logging message at: 3/21/2009 3:59:04 PM
+Exception Message: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address.
+Parameter name: hostNameOrAddress
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 116
+=============================================================
+Logging message at: 3/21/2009 3:59:16 PM
+Exception Message: Object reference not set to an instance of an object.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.IO.TCPserverFacade.Send(Byte[] bytes) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 103
+=============================================================
+Logging message at: 3/21/2009 3:59:29 PM
+Exception Message: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address.
+Parameter name: hostNameOrAddress
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 116
+=============================================================
+Logging message at: 3/21/2009 3:59:47 PM
+Exception Message: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address.
+Parameter name: hostNameOrAddress
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 116
+=============================================================
+Logging message at: 3/21/2009 4:00:05 PM
+Exception Message: The requested address is not valid in its context
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 119
+=============================================================
+Logging message at: 3/21/2009 4:04:25 PM
+Exception Message: The requested address is not valid in its context
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 119
+=============================================================
+Logging message at: 3/21/2009 4:04:50 PM
+Exception Message: Object reference not set to an instance of an object.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.IO.TCPclientFacade.Send(Byte[] bytes) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 107
+=============================================================
+Logging message at: 3/21/2009 4:04:54 PM
+Exception Message: Object reference not set to an instance of an object.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.IO.TCPclientFacade.Send(Byte[] bytes) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 107
+=============================================================
+Logging message at: 3/21/2009 4:05:08 PM
+Exception Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.2.10:2000
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at ScopeIII.IO.TCPclientFacade.Connect() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 123
+=============================================================
+Logging message at: 3/21/2009 4:05:31 PM
+Exception Message: The requested address is not valid in its context
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 119
+=============================================================
+Logging message at: 3/21/2009 4:05:46 PM
+Exception Message: The requested address is not valid in its context
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 119
+=============================================================
+Logging message at: 3/21/2009 4:06:16 PM
+Exception Message: Object reference not set to an instance of an object.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.IO.TCPclientFacade.Send(Byte[] bytes) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 107
+=============================================================
+Logging message at: 3/21/2009 4:06:24 PM
+Exception Message: Object reference not set to an instance of an object.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.IO.TCPclientFacade.Send(Byte[] bytes) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 107
+=============================================================
+Logging message at: 3/21/2009 4:06:26 PM
+Exception Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.2.10:10001
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at ScopeIII.IO.TCPclientFacade.Connect() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 123
+=============================================================
+Logging message at: 3/21/2009 4:12:53 PM
+Exception Message: Object reference not set to an instance of an object.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.IO.TCPclientFacade.Send(Byte[] bytes) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 107
+=============================================================
+Logging message at: 3/21/2009 4:12:56 PM
+Exception Message: Object reference not set to an instance of an object.
+Exception InnerException: 
+Exception StackTrace:    at ScopeIII.IO.TCPclientFacade.Send(Byte[] bytes) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 107
+=============================================================
+Logging message at: 3/21/2009 4:13:05 PM
+Exception Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.2.10:2000
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at ScopeIII.IO.TCPclientFacade.Connect() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 123
+=============================================================
+Logging message at: 3/21/2009 4:13:36 PM
+Exception Message: The requested address is not valid in its context
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at System.Net.Sockets.TcpListener.Start(Int32 backlog)
+   at System.Net.Sockets.TcpListener.Start()
+   at ScopeIII.IO.TCPserverFacade.StartListening() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPserverFacade.vb:line 119
+=============================================================
+Logging message at: 3/21/2009 4:33:48 PM
+Exception Message: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 192.168.2.10:10001
+Exception InnerException: 
+Exception StackTrace:    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   at System.Net.Sockets.TcpClient.Connect(IPAddress address, Int32 port)
+   at ScopeIII.IO.TCPclientFacade.Connect() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\IO\IP\TCPclientFacade.vb:line 123
+=============================================================

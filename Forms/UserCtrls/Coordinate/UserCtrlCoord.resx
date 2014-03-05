@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorProvider.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="ErrorProvider.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="ErrorProvider.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="lblName.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="lblName.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="lblName.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="lblName.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2mGAAAAAAAADYAAAAoAAAAWgAAABcAAAABABgAAAAAAAAAAAARCwAAEQsAAAAAAAAAAAAAsLCwsLCw
+        sLGwsLCwsLCxsLGwsLGwsLCwsLCwsK+wsLCwsLCwsLCvr7Cvr7Cwr7Cvr6+vr6+vr6+wr6+vr6+vr6+v
+        r6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vrq+vr6+vrq6vr6+vr66u
+        rq+vrq+ur66vr6+urq6vrq6urq6urq6urq6urq6urq2urq6urq6urq6tra6urq6tra6urq2ura2trq6t
+        rq2tra2trq2trq2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2tra2t
+        ra2tra2tra2tra2tra2tra2srKysrays6P+1tbW0tbW1tbW1tLW1tbW0tbW0tbS0tLW1tLW1tLS0tLS0
+        tLS0tLS0tbS0tLS0tLS0tLS0s7SztLO0tLO0s7O0s7S0tLOztLSztLO0s7S0s7Ozs7Szs7OztLOzs7Oz
+        s7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Oys7Ozs7Ozs7Oys7OzsrKy
+        s7Oys7Oys7OysrOzsrOysrKys7OysrKysrKysrKysrKysrKysbKxsrKxsrKxsbKysrKxsrGxsrGysbGx
+        sbKysrGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbHo/7q6
+        urm5ubq5urm5ubm5ubm5ubm6ubm5ubm5ubm5ubm4ubm5uLm4ubm4ubm4uLi4uLm4uLi4ubi4uLi5uLi4
+        uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4
+        uLi4uLi3uLe4uLe3uLe3t7i3uLe3uLe3t7e3t7e3t7i3t7e3t7e3t7e3t7e3t7e3tre2t7e2t7e3tre2
+        tre2tre2tra2tre2tra2t7a2tre2tra2tra2trW2tra1tbW2tba2tba2tbW2tbW2trW2trW1tbW1tbW2
+        tbW1trW1tbW1tbW1tbW1tbW1tbW1tbW1tbW1tej/vr6+vr6+vr6+vr6+vr6+vb6+vb6+vr6+vb2+vr2+
+        vb29vb29vb29vb2+vb29vb29vb29vby9vL29vb29vL28vb29vby8vb29vL29vLy9vL28vby8vb28vLy8
+        vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8
+        vLy7vLu8u7u7vLy7vLu7vLy7vLy7vLu7vLu8u7u7u7u7u7u7u7u7u7u7u7u7u7q7u7q6u7u7u7q7uru7
+        uru6urq6urq7urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6urq6
+        6P/CwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLBwsLCwsLCwcLBwcLBwsHBwsHBwsHB
+        wcHBwcLBwcHBwcLBwcHBwcHBwcHBwcHBwcHAwcHBwcHAwcHAwcDBwcDAwcHAwcDAwcDAwcDBwMHAwMDA
+        wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMC/
+        wMDAv8DAwMDAwL/AwL/Av7+/v7+/v7+/wL+/v7+/v7+/v7++v7+/v7++vr+/v7+/vr+/vr+/v7+/v76+
+        v76/vr+/vr6+vr6+v76+vr6+vr6+vr6+vr6+vr6+vr7o/8fGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbG
+        xsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsXGxsbFxsXGxcbFxsbGxsXGxcbGxcXG
+        xcXFxcXGxcXFxcXFxcXFxcXFxcXFxcXFxMXFxMTFxcXExcXFxMXFxcTFxMTExMTFxMTExMXExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTEw8TExMTEw8TE
+        xMPDxMPDxMTExMPDxMPDxMPDxMPDw8PEw8PDw8PDw8PDw8LDw8LDw8PDw8LCw8LDwsPCwsPCw8LCw8LC
+        wsLCw+j/ysvLy8vLy8rKy8vLysrLysrLysrKysvKysrKy8rKysrKysrKysrKysrKysrKysrKysrKysrK
+        ysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrJycrKysnKysnJysrJysnJysrJycnJ
+        ycnJysnJycnKycnJycnJycnJycnIycjJyMjJycnIyMjJycnIyMnIyMjIycjJyMjIycjIyMjIyMjIyMjI
+        yMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIx8jIyMjIyMfHyMjIyMjH
+        x8fIyMfIx8jHyMfHyMfHyMfHyMfHx8fIx8fHx8fHx8fGx8fH6P/Pz8/Pz8/P0M/Qz8/Pz8/Pz8/Pz8/P
+        z8/Oz8/Pz8/Ozs/Pz8/Oz8/Oz8/Oz8/Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O
+        zs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Nzc7Ozs3Nzs7Ozc7Nzc7Ozc7Ozc3Nzc7Nzs3O
+        zs3Nzc3Nzc3Nzc3Nzc3NzczNzc3NzczNzMzMzM3MzMzNzc3MzM3MzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzLy8vMzMzLzMzM
+        y8vLy8zMzMvo/9TU09TT1NTT1NPT09PU09TT09PT1NPU1NPT1NPT1NPT09PT09PT09PT09LT09PS09LS
+        09LT09LT0tPS0tPS09LT0tLT09PS09PS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS
+        0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLR0dHS0tHS0dLS0tHS0tHR0dHR0dHS0tHR0tHS0dHR
+        0dHR0dHR0dHR0dHR0dHQ0dHR0NHQ0dHR0dDR0NHR0dDQ0dHQ0NDQ0NHQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ
+        0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQz9DPz+j/2djY2djY2NjY2NjY2NnY2NjY
+        2NjY2NjY2NjY2NjY2NjY2NjY2NjX2NfY2NjY19fX2NfY19jX19fX19jX19fX19fX19fX19fX19fX19fX
+        19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX1tfX19fX19fX1tbW1tfX1tbW1tbW1tbW
+        1tbX19bW19bW1tfW1tbW1tbW1tbW1tbW1tbV1tbW1tbW1tbW1dbV1dbW1tbV1dbW1tXW1tXV1dXV1dXV
+        1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dTV1dTV
+        1dXV1dXU1NTV1NTV6P/d3d3d3N3d3d3d3dzd3d3d3d3c3N3d3dzd3Nzd3dzc3Nzd3Nzc3Nzc3N3d3Nzc
+        3Nzc3Nzc3Nzc3Nzb29vc29zb3Nzb29vb29zb3Nzc29vb29vb3Nvb29vb29vb29vb29vb29vb29vb29vb
+        29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29rb2tva29va29ra29ra29va2tra
+        2trb2tra2tra2tra2tra2tra2tna2trZ2tna2dra2tna2trZ2dna2tnZ2tna2tnZ2drZ2dnZ2dnZ2dnZ
+        2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dno/+Hh4eHh4eHh4eHh4eHh
+        4eHh4eHh4eHh4eHh4eHh4OHh4eDh4eHg4eDg4eHh4OHh4ODh4eHh4ODh4eDg4ODg4ODg4eDg4ODg4ODg
+        4ODg4ODg4ODg4ODg4ODf4ODg3+Df4N/g39/g39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f
+        39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f3t7f39/e39/f39/e397f397f3t7f3t/e3t7e3t/e
+        3t7e3t/e3t7e3t7e3t7e3t7e3t7e3t7e3t7d3t7e3t7d3d3e3d7d3d3e3d3d3d3e3d3d3d3d3d3d3d3d
+        3d3d3d3d3d3d3d3d3d3d3ej/5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl
+        5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXk5OXl5OXl5OXk5OTl5OTk5OTl5OTk5OTk5OTk5OTk5OTk4+Tk
+        4+Tk4+Tj5OPk5OPj4+Pk5OPj4+Pj5OTj4+Pj4+Pj4+Tj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj
+        4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4uPj4+Pj4uPi4+Lj4uPi4+Pj4+Pi4uLi4+Li4+Li
+        4uLj4uPi4uLi4uLi4uLh4uLi4uHi4eLi4eHi4uHi4uLi4eLi4eLi4eHh4eLh4eHh6P/q6urq6urp6urq
+        6unp6enp6urq6enp6urp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp6enp
+        6enp6enp6enp6enp6Ojp6eno6enp6eno6ejp6ejo6Ojo6enp6Ono6ejo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo
+        6Ojn6Ojo6Ojo6Ofo5+jo6Ojo5+fn5+jo5+fn5+fn5+jn5+jn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn
+        5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+bn5+bn5+bm5ubm5+fn5+fn5+fm5+bn5ufm5+bm5ubm
+        5ubm5ubm5ubm5ubm5ebm5ubl5ubo/+7u7+7u7u7u7u7u7u7u7u7u7u7u7e7t7u7u7u7t7u3u7u3u7u7t
+        7u7t7e3t7u3t7e3t7e3u7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t
+        7e3t7ezt7e3t7e3s7e3t7e3t7e3t7O3t7ezs7ezt7Ozt7ezs7O3s7Ozs7Ozs7Ozs7Ozs7Ozs7Ozr6+vr
+        7Ozs6+vs7Ozr7Ozs6+vr6+vs6+vr7Ovs6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr
+        6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6uvr6uvq6+vq6uvr6+rq6+rr6urr6urq6uj/8/Pz8/Py
+        8/Lz8/Lz8vPy8vPy8/Py8vLy8/Ly8vLy8vLz8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy
+        8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8fHy8fLx8vLy8fLx8vHx8fHx8fLy8vHx8fHx8fHx8fHx
+        8fHx8fDx8fHx8fHx8fHx8PDw8PDx8PDw8fDw8fHw8PDw8PDw8PHw8PDw8PDw8PDw8O/w8PDw8PDw8PDw
+        7+/w8PDw8PDv8O/w7+/v7/Dv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v
+        7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v6P/39/f49/f3+Pj39/f49/f39/f39/f39/f39/f39vf39/f3
+        9/b29vf29/b29vb29vb29vb29vf29vf29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb2
+        9vb29vb29vb29vb29vb19vb19vX29vb29vb29vb19fb19fX19fb29vX19fb19vX19fb19fb19fX19fX1
+        9fX19fX19fX09fT09fT09PT09PT09PT09fT09PT19PT19PT09PX09PT09PT09PT09PT09PT09PT09PT0
+        9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PTz9PTz8/T09PP08/T08/Tz8/P08/P08/Po//z8
+        /Pz7/Pz8/Pz7+/z7/Pz7/Pv7/Pz7/Pz7/Pv7+/v7+/v7+/v7+/v7+/v7+/v6+/r7+/v7+/v7+vr6+/v7
+        +vr6+vr6+/r6+/v7+/r6+vr6+/r6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6
+        +vr6+vr6+vr6+vr6+vn6+vr6+fr6+vr6+fn5+vr6+fn6+fn6+fr5+vn5+fn5+vn5+fn5+fn5+fn5+fn5
+        +fn5+fn5+Pn5+Pn5+fj5+fn4+Pj5+Pj4+Pj5+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4
+        +Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Oj/////////////////////////////////////////
+        /////////////////////////////////////////////////////////////v/////+/////v7//v7+
+        //7+/v7//v7+/////v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+
+        /v7+/v7+/v7+/v7+/v7+/v7+/f7+/v3+/v3+/f7+/v7+/v7+/v79/v3+/f3+/f39/f39/f39/f39/f39
+        /f39/f39/fz9/Pz9/fz8/f38/fz9/fz8/Pz8/P39/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        6P//////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////o////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////+j/////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////6P//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////o/w==
+</value>
+  </data>
+  <data name="txBxCoordinate.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="txBxCoordinate.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Public</value>
+  </data>
+  <data name="txBxCoordinate.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="ToolTip.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="ToolTip.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </data>
+  <data name="ToolTip.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Name">
+    <value>UserCtrlCoordinate</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>80</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 8</value>
+  </data>
+</root>

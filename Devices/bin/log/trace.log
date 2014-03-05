@@ -1,0 +1,50 @@
+Logging message at: 7/29/2008 2:04:29 PM
+Message: Exception caught for ProgressMediator BackgroundWorker thread.
+Exception Message: Exception has been thrown by the target of an invocation.
+Exception InnerException: Value of '105' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+Exception StackTrace:    at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Delegate.DynamicInvoke(Object[] args)
+   at BartelsLibrary.ProgressMediator.backgroundWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\Progress\ProgressMediator.vb:line 161
+=============================================================
+Logging message at: 7/29/2008 2:04:30 PM
+Message: Exception caught for ProgressMediator BackgroundWorker thread.
+Exception Message: Exception has been thrown by the target of an invocation.
+Exception InnerException: Value of '109' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+Exception StackTrace:    at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Delegate.DynamicInvoke(Object[] args)
+   at BartelsLibrary.ProgressMediator.backgroundWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\Progress\ProgressMediator.vb:line 161
+=============================================================
+Logging message at: 7/29/2008 2:04:31 PM
+Message: Exception caught for ProgressMediator BackgroundWorker thread.
+Exception Message: Exception has been thrown by the target of an invocation.
+Exception InnerException: Value of '105' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+Exception StackTrace:    at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at System.Delegate.DynamicInvoke(Object[] args)
+   at BartelsLibrary.ProgressMediator.backgroundWorker_DoWork(Object sender, DoWorkEventArgs e) in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\Presentation\Progress\ProgressMediator.vb:line 161
+=============================================================
+Logging message at: 7/29/2008 2:04:32 PM
+Message: Test exception
+=============================================================
+Logging message at: 7/29/2008 2:04:33 PM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 7/29/2008 2:04:33 PM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================

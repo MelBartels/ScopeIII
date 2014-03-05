@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98AD0011-580B-45BD-B5B7-CE1A21D6E64D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>IO</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>ScopeIII.IO</RootNamespace>
+    <StartupObject>ScopeIII.IO.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>IO.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>IO.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BartelsLibrary, Version=1.0.3375.38010, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\BartelsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.2.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Config\Config.vbproj">
+      <Name>Config</Name>
+      <Project>{FE6DC93D-6D39-41E0-9927-3BC4631F7FD3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ScopeLibrary\ScopeLibrary.vbproj">
+      <Project>{2EBD79BB-BABE-4C13-A120-DB14928EFC7D}</Project>
+      <Name>ScopeLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="BartelsLibrary" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="ScopeIII.Config" />
+    <Import Include="ScopeLibrary" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IOPresenterIO.vb" />
+    <Compile Include="IIOPresenter.vb" />
+    <Compile Include="Serial\SerialPortFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\SerialSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\EditableBaudRateList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\EditableSerialPortList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\EditableDataBitsList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IIO.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IOBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IOBuilder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IP\IPsettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IP\TCPclientFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IP\TCPserverFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logging\IOLoggingFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observers\IIOobservers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observers\IOobservers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observers\ReceiveInspector.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observers\ReceiveInspectorState.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PreLoadConfig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\IOPresenterIOTest.vb" />
+    <Compile Include="UnitTests\SerialPortTests.vb" />
+    <Compile Include="UnitTests\SerialPortSettingsCloneTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SerialPortTestViaLogging.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\IIOTestSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\ReceiveInspectorTests.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TCPTestViaLogging.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestIOBytes.vb" />
+    <Compile Include="UnitTests\TestSettingsFacadeTemplate.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

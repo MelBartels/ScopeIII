@@ -1,0 +1,813 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Coordinates
+</name>
+</assembly>
+<members>
+<member name="T:ScopeIII.Coordinates.BestZ123">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.BestZ123
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ compute mount misalignment errors z1, z2, z3 using iterative search;
+ best values picked by mean square of resulting altitude and azimuth errors: that is, find best values of z123 that,
+ after plugging in z123 values, minimize altitude and azimuth errors (azimuth error corrected for cos of altitude);
+ search for z3 outside of search for z12 because including z3 creates multiple local minima that can only be found with brute force
+ or optimization such as annealing;
+ z12 range is +- 7 deg;
+ critically important to separate z1 z2 cleanly by determining accurate azimuths for series of altitudes between 10 and 80 deg;
+ routine run time is 3 sec on 2ghz machine in debug, 6 sec running Java from DOS prompt (similar code compiled in C and
+ run in DOS completes 10x faster);
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	3/8/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.Precession">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.Precession
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ 
+ from http://www.seds.org/~spider/spider/ScholarX/coordpCh.html
+ The star with the largest observed proper motion is 9.7 mag Barnard's Star in Ophiuchus with 10.27 "/y (arc seconds per year).
+ According to F. Schmeidler, only about 500 stars are known to have proper motions of more than 1 "/y.
+ 
+ from http://www.seds.org/~spider/spider/ScholarX/coordpCh.html#precession
+ low precision but quick processing routine for precession
+ high precision routine from Meeus
+ 
+ Precession of the Earth's polar axis is caused by the gravitational pull of the Sun and the Moon on the equatorial
+ bulge of the flattened rotating Earth. It makes the polar axis precess around the pole of the ecliptic,
+ with a period of 25,725 years (the so-called Platonic year).
+ The effect is large enough for changing the equatorial coordinate system significantly in comparatively short times
+ (therefore, Hipparchus was able to discover it around 130 B.C.).
+ Sun and moon together give rise to the lunisolar precession p0, while the other planets contribute the
+ significantly smaller planetary precession p1, which sum up to the general precession p
+ numerical values for these quantities are (from Schmeidler t is the time in tropical years from 2000.0):
+ p0 =  50.3878" + 0.000049" * t
+ p1 = - 0.1055" + 0.000189" * t
+ p  =  50.2910" + 0.000222" * t
+
+ These values give the annual increase of ecliptical longitude for all stars.
+ The effect on equatorial coordinates is formally more complicated, and approximately given by
+ RA  = m + n * sin RA * tan Dec
+ Dec = n * cos RA
+ (my note: p0,p1,p is per year)
+ where the constants m and n are the precession components given by
+ m = + 46.124" + 0.000279" * t
+   =   3.0749 s + 0.0000186 s * t
+ n = + 20.043" - 0.000085" * t
+   =   1.3362s - 0.0000056 s * t
+ 
+ Quick vs rigorous calculations:
+ for 10 yr period -
+ RA=0deg, discrepancy=-0.017451678342158arcsec; Dec=0deg, discrepancy=-0.00524010120891173arcsec
+ RA=0deg, discrepancy=-4.37426810253779arcsec; Dec=87.0000000000001deg, discrepancy=-0.00523773447528501arcsec
+ 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	3/27/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.InitStateFactory.Build(BartelsLibrary.ISFT@,BartelsLibrary.ISFT@)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Build InitStateTemplate based on final strong types.
+ </summary>
+	<param name="CoordXformType"></param>
+	<param name="InitStateType"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	12/21/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.InitStateFactory.SetInit(ScopeIII.Coordinates.InitStateTemplate@,BartelsLibrary.ISFT@)">
+ -----------------------------------------------------------------------------
+ <summary>
+  set InitStateTemplate's IInit based on InitStateType, eg, InitStateType.Equatorial, InitStateType.Altazimuth
+ </summary>
+	<param name="InitStateTemplate"></param>
+	<param name="InitStateType"></param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	12/21/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.IterativeLatitude">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.IterativeLatitude
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Iterate for Latitude using the equat coord for 2 positions.
+ 
+ When the alt diff and the az diff of the resulting GetAltaz agree closest to the 
+ alt diff and az diff of the given 2 positions, then Latitude is found.
+ 
+ Use az diff first to pin down hemisphere, then average w/ alt diff.
+ 
+ Required parameters are 2 positions with altaz/equat/sidT values present.
+ 
+ Independent of coordinate transform method.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/2/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.AltOffset.CalcAltOffsetIteratively(ScopeIII.Coordinates.Position@,ScopeIII.Coordinates.Position@)">
+ -----------------------------------------------------------------------------
+ <summary>
+ when angular separation of altaz values closest to that of equat values, best altitude offset found
+ work with copy of Positions as .alt values changed
+ +- 45 deg range
+ </summary>
+	<param name="a"></param>
+	<param name="z"></param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	2/28/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.AltOffset">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.AltOffset
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Offset measured as the amount to add to altitude to arrive at the true value.
+ If offset is -1, then altitude is 1 too high.
+ 
+ Input parameters required: 2 positions each with altaz and equat coordinates.  No CoordXform is needed.
+ 
+ Independent of coordinate transform method.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/2/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.NutationAnnualAberration">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.NutationAnnualAberration
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ from Jean Meeus' Astronomical Formulae for Calculators second edition, 1982, pg 69-70, revised per later editions;
+ 
+ Nutation:
+ nutation is variation or fluctuation in rate of precession;
+ caused by difference between ecliptic and earth-moon plane, the latter which precesses 18.6 years;
+ thus, plane of the moon's orbit and the effect of the moon's pull on the earth varies, causing
+ fluctuations in the rate of precession;
+ 
+ AnnualAberration:
+ starlight seems to come from a different direction than if earth at rest: this effect is called annual aberration;
+ diurnal aberration is due to earth's daily rotation and is of .3" value so will be ignored
+ 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	5/28/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.FabErrors">
+ -----------------------------------------------------------------------------
+ Project	 : Mounting
+ Class	 : Mounting.FabErrors
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ fabrication errors (in radians):
+ Z1: offset of elevation to perpendicular of horizon, ie, one side of rocker box higher than the other
+ Z2: optical axis pointing error in same plane, ie, tube horiz.: optical axis error left to right (horiz)
+ Z3: correction to zero setting of elevation, ie, vertical offset error (same as altitude offset)
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/26/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.PostInitCalcs.calcPostInitVars">
+ -----------------------------------------------------------------------------
+ <summary>
+ can be called after initialization: 
+ calculates apparent scope latitude (from two perspectives), longitude, offset hour angle, offset azimuth, 
+ zenith and polar offsets
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	2/23/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.PostInitCalcs.calcPostInitVarsForFieldRotationOnly">
+ -----------------------------------------------------------------------------
+ <summary>
+ shortened version of calcPostInitVars() that runs must faster
+ use when only variables for field rotation calculation are needed 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	2/25/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.PostInitCalcs">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.PostInitCalcs
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Calculate various post initialization variables.
+ Independent of coordinate transform method.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	4/25/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.Refract.Calc(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ This function calcs the refraction that lowers a given altitude.
+ Eg, an object that appears on the horizon is actually 34.5 arcmin below the horizon.
+ Refraction for the altitude of 0 is therefore computed at 34.5 arcmin.
+ </summary>
+	<param name="alt"></param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/18/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.Refract.CalcRefractionToBackOut(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ This function calcs the refraction that increases a given altitude.
+ Eg, an altitude of 34.5 arcmin below the horizon actually appears on the horizon.
+ Refraction for the altitude of -34.5 arcmin is therefore computed at 34.5 arcmin.
+ </summary>
+	<param name="alt"></param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/18/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.Refract.setWorkVars(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Utility function called by CalcRefract...() functions.
+ </summary>
+	<param name="alt"></param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/18/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.Refract">
+ -----------------------------------------------------------------------------
+ Project	 : Refraction
+ Class	 : Refraction.Refract
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ refraction makes an object appear higher in the sky than it really is when close to the horizon;
+ if you are looking at the horizon, then you will be seeing an object that otherwise is -34.5' below horizon;
+ translate site-&gt;sky as 0 -&gt; -34.5 and sky-&gt;site as -34.5 -&gt; 0
+ causes tracking rate to slow down the closer the scope is to the horizon;
+
+ interpolate:
+ 1. find points that the angle fits between
+    ex: angle of 10 has end point of r(10,0) and beginning point of r(9,0)
+ 2. get position between end points
+    position = (a-bp)/(ep-bp)
+    ex: a=1, bp=2, ep=0
+        position = (1-2)/(0-2) = .5
+ 3. scope-&gt;sky refraction = amount of refraction at beginning point +
+                            position (amount of refract at end point - amount of refract at beg point)
+    r = br + p*(er-br), r = br + (a-bp)/(ep-bp)*(er-br), r = br + (a-bp)*(er-br)/(ep-bp)
+    ex: br=18, er=34.5
+        r = 18 + .5*(34.5-18) = 26.25 arcmin
+ 4. corrected angle = angle - refraction
+    ex: c = a-r = c = 60 arcmin - 26.25 arcmin = 33.75 arcmin
+
+ to reverse (sky-&gt;scope): have corrected angle of c, find altitude of a;
+    ex: c = 60 arcmin - 26.25 arcmin = 33.75 arcmin, solve for a:
+ 1. c = a - r, a = c + r, a = (c+br)(ep-bp) + (a-bp)*(er-br)/(ep-bp),
+    a(ep-bp) = c*ep - c*bp + br*ep - br*bp + a*er - a*br - bp*er + bp*br,
+    a*ep - a*bp - a*er + a*br = c*ep - c*bp + br*ep - br*bp - bp*er + bp*br,
+    a*(ep-bp-er+br) = bp(-c-br-er+br) + ep(c+br),
+    a = (bp(-c-er) + ep(c+br)) / (ep-bp-er+br),
+    ex: using example from above, convert all units to armin...
+        c=33.75 arcmin
+        br=18
+        er=34.5
+        bp=120
+        ep=0
+    a = (120(-33.75-34.5) + 0) / (0-120-34.5+18),
+    a = 120*-68.25 / -136.5,
+    a = 60 armin
+ 
+ (if refract added to angle, eg, corrected angle = angle + refraction, ie, c=a+r,
+  then use the following to back out the correction:
+  to reverse: have corrected angle of ca, find altitude of a
+     ex: ca = 1deg + 26.25arcmin = 86.25arcmin, solve for a
+  1. ca = a + r, a = ca - r, a = ca - br - (a-bp)*(er-br)/(ep-bp),
+     a*(ep-bp)+(a-bp)*(er-br) = (ca-br)*(ep-bp),
+     a*ep-a*bp+a*er-a*br-bp*er+bp*br = ca*ep-ca*bp-br*ep+br*bp,
+     a*(ep-bp+er-br) = ca*ep-ca*bp-br*ep+br*bp+bp*er-bp*br,
+     a*(ep-bp+er-br) = ca*(ep-bp)-br*ep+bp*er,
+     a = (ca*(ep-bp)-br*ep+bp*er) / (ep-bp+er-br),
+     ex: convert all units to armin...
+         a = 86.25-18-(34.5-18)(60-120)/(0-120) = 86.25-18-8.25 = 60 (from 1st line)
+         a = (86.25*(0-120)-18*0+120*34.5)/(0-120+34.5-18) = (-10350+4140)/(-103.5) = 60)
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/18/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.Time.CalcSidTGreenwichMean(System.DateTime,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ from Jean Meeus' Astronomical Algorithms, 2nd ed, chapter 12, pg 88, formula 12.4
+ </summary>
+	<param name="dateTime"></param>
+	<param name="UtcOffsetHrs"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/24/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.Time.CalcSidTNow">
+ -----------------------------------------------------------------------------
+ <summary>
+ Uses Longitude.Rad timer; resolution of tick interval is 1/100 sec
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/24/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.CoordinateParser.Parse(System.String)">
+ -----------------------------------------------------------------------------
+ <summary>
+ variants:
+ degree, eg, 123.456
+ datafile HMS, eg, 05 14 45
+ datafile DMS, eg, -08 11 48
+ radians, eg, 1.23456
+ DMS, eg, -08:11:48
+ HMS, eg, 05:14:45
+ HMSM, eg, 05:06:17.045
+ LX200 signed long deg, eg, "-10^05:02#" (^ stands in for the LX200 degree symbol)
+ LX200 signed short deg, eg, "-10^05.5#" (^ stands in for the LX200 degree symbol)
+ LX200 long deg, eg, "010^05:02#" (^ stands in for the LX200 degree symbol)
+ LX200 short deg, eg, "010^05.5#" (^ stands in for the LX200 degree symbol)
+ LX200 long hr, eg, "05:06:17#" 
+ LX200 short hr, eg, "05:06#" 
+ RA XML, eg, <RightAscension><Sign>+</Sign><Hours>5</Hours><Minutes>6</Minutes><Seconds>16.9999999999989</Seconds></RightAscension>
+ Dec XML, eg, <Declination><Sign>+</Sign><Degrees>10</Degrees><Minutes>5</Minutes><Seconds>2</Seconds></Declination>
+ GoogleSky RA 00h42m44.30s 
+ GoogleSky Dec +41°16'10.0"
+ 
+ DMS can also be in form of 1[d] 2[m] 3[s] 
+ where [d] is optional: d, deg, degree, degrees
+ where [m] is optional: m, min, mins, minute, minutes
+ where [s] is optional: s, sec, secs, second, seconds
+ eg, 1d 2m 3s, or 1 deg 2 min 3 sec
+ therefore delimiter list: ' ', ':', 'd', 'm', 's'
+ DMS additionally can be in the form of +1°2'3.0"
+ therefore add to delimited list: °'"
+ 
+ HMS can also be in form of 1[h] 2[m] 3[s] 
+ where [h] is optional: h, hr, hrs, hour, hours
+ where [m] is optional: m, min, mins, minute, minutes
+ where [s] is optional: s, sec, secs, second, seconds
+ eg, 1h 2m 3s, or 1 hr 2 min 3 sec
+ therefore delimiter list: ' ', ':', 'h', 'm', 's'
+ 
+ ambiguities:
+ degrees and radians if delimiter is 'r'
+ DMS and HMS where delimiter is ' ', or ':'
+ 
+ conclusion:
+ if at least 'h' present, then decode to HMS ('h' can be anywhere in the string, even at the end)
+ if at least 'd' present, or more than 1 number, then decode to DMS 
+ if at least 'ra' present, then decode to radians
+ else default to decoding to degrees
+ 
+ </summary>
+	<param name="str"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	4/18/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.CelestialCoordinateCalcs">
+ -----------------------------------------------------------------------------
+ Project	 : Coordinates
+ Class	 : Coordinates.CelestialCoordinateCalcs
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ From Jean Meeus' Astronomical Formulae for Calculators second edition, 1982, revised per later editions;
+ 
+ Angular separation methods: two to calculate the angular separation of equatorial coordinates, two
+ to calculate the angular separation of altazimuth coordinates, and the final to calculate the difference
+ between the equatorial and azimuth angular separations;
+ 
+ Uncorrected values are raw equatorial coordinates;
+ Celestial errors are added to uncorrected values to obtain corrected values, ie, precession correction
+ (a positive value for RA) is added to obtain corrected value, eg, uncorrected RA=0, precession=1, corrected RA=1;
+ Similar for nutation and annual aberration;
+ Refraction is similarly added even though a negative value, eg, uncorrected Dec=-45, refraction=-.5, corrected Dec=-45.5;
+ 
+ Coordinate conversion and celestial errors:
+ given that altaz plots to RA=1,
+ if uncorrected RA=0, and corrections total 1 then corrected RA=1;
+ therefore altaz plots corrected RA=1 and uncorrected RA=0 at same point;
+ 
+ RA plotted        0    1    2
+    uncorrected    23   0    1    (uncorrected values displaced 1hr east, ie, RA=1 is 1hr east of corrected RA=1)
+    + correction   1    1    1    (uncorrected value that's corrected will appear 1hr west)
+    = corrected    0    1    2
+ 
+ Therefore if precession a positive value for RA:
+ object's old RA=0, precession=1, current RA=1;
+ RA plotted        0    1    2
+    old            23   0    1   (old value is eastward)
+    + precession   1    1    1
+    = current      0    1    2
+ Conclude that precession causes objects to drift eastward over time as they acquire larger RA values;
+ 
+ Celestial errors:
+ precession causes equat grid to rotate westward (eg, uncorrected RA=0 with correction=1 will appear at RA=1);
+ refraction causes equat grid to slide upward at horizon (object in sky appears higher, tracking runs slower);
+ 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	2/28/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.CoordXformBase">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.AltOffset
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ 
+ Coordinate Transform Notes:
+ 
+ Hour angle increases to the east in the direction of rising stars, as does Right Ascension;
+ Hour Angle offset = Local Sidereal time - scope's meridian;
+ scope's meridian = ra - ha;
+ haOff = LST - ra - ha, ha = LST - ra - haOff, ha + haOff = LST - ra; 
+ (+) HA = scope aimed to East, (-) HA = scope aimed to West;
+ (+) offset = scope tilted to West, (-) offset = scope tilted to East;
+ ex: scope tilted 1 hr east of meridian (haOff = -1 hr), HA = 2 hrs:
+     ha + haOff = LST - ra, 2 + -1 = LST - ra, 1 = LST - ra: actual or net HA = 1;
+ 
+ Defined alignments for ConvertMatrix (altaz and equat):
+ 1st point: scope's celestial pole (faces north in northern hemisphere, faces south 
+     in southern hemisphere)
+ 2nd point: intersection of celestial equator and meridian (faces south in northern
+     hemisphere, faces north in southern hemisphere)
+ 
+ Coordinate Rules (consequences of the defined alignments, to be applied to all coordinate conversions):
+     alt increases from horizon to zenith;
+     az always increases clockwise (position your body along the pole with head 
+         pointed upward, sweep arms from left to right clockwise);
+     az of 0 always points towards Earth's closest pole, az of 180 points to Earth's equator;
+     tracking motion causes az to reverse direction in southern hemisphere as compared 
+         to northern hemisphere;
+ 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	4/25/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.CoordExpBase">
+ -----------------------------------------------------------------------------
+ Project	 : Coordinates
+ Class	 : CoordExpBase
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Base class for all ICoordExp.
+ Incorporates common functionality.
+
+ Signs
+ output sign at front, ie, -00:34:56
+ can read - 00:34:56 and -00:34:56 and 00:-34:56
+ + sign always included for Dec, never included for HMS/HMSM
+ 
+ LX200 
+ DMS formatting: -12^34#   where ^ stands for the degree symbol
+     long format -12^34:56#
+ must use leading zeroes - no blanks, ie, 02^34# is correct while _2^34# will fail
+ if no sign, then use 3 digits for degree value (ie, longitude)
+ HMS formatting: 12:34.5#
+     long format 12:34:56#
+ must use leading zeroes - no blanks, ie, 02:34.5# is correct while _2:34.5# will fail
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/19/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertTrig.GetAltaz">
+ -----------------------------------------------------------------------------
+ <summary>
+ set site latitude, position ra, dec, sidT before calling;
+ see notes for CoordXformBase: if southern hemisphere, then flip dec bef. calc, 
+ then flip az after: necessary to conform to coordinate scheme for southern hemisphere
+ 
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/27/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertTrig.GetEquat">
+ -----------------------------------------------------------------------------
+ <summary>
+ set site latitude, position alt, az, and sidT before calling;
+ see notes for CoordXformBase: if southern hemisphere, then flip az bef. calc, 
+ then flip dec after: necessary to conform to coordinate scheme for southern hemisphere
+ 
+ </summary>
+	<returns></returns>
+	<remarks>
+     ''' </remarks>
+	<history>
+ 	[MBartels]	2/20/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.ConvertTrig">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.ConvertTrig
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Coordinate translation using standard spherical trig equations.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	4/25/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.FieldRotation.CalcRateSidTrackViaDeltaFR(ScopeIII.Coordinates.Position@,System.Double,ScopeIII.Coordinates.Coordinate@)">
+ -----------------------------------------------------------------------------
+ <summary>
+ calculate the field rotation rate by dividing the field rotation angle difference obtained by calculating the 
+ field rotation angle just before and just after the desired time
+ </summary>
+	<param name="position"></param>
+	<param name="haOff"></param>
+	<param name="equatorialLatitude"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/1/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.FieldRotation.CalcRateSidTrackViaDeltaFR(ScopeIII.Coordinates.Position@,ScopeIII.Coordinates.Position@,System.Double,ScopeIII.Coordinates.Coordinate@)">
+	<summary>
+ calculate the field rotation rate given pre and post positions
+ </summary>
+	<param name="prePosition"></param>
+	<param name="postPosition"></param>
+	<param name="haOff"></param>
+	<param name="equatorialLatitude"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ScopeIII.Coordinates.FieldRotation.CalcRateSidTrackViaFormula(ScopeIII.Coordinates.Position@,ScopeIII.Coordinates.Position@,System.Double,ScopeIII.Coordinates.Coordinate@)">
+	<summary>
+ calculate the field rotation rate given pre and post positions
+ </summary>
+	<param name="prePosition"></param>
+	<param name="postPosition"></param>
+	<param name="haOff"></param>
+	<param name="equatorialLatitude"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ScopeIII.Coordinates.FieldRotation.GetFieldRotationRate(ScopeIII.Coordinates.Position@)">
+ -----------------------------------------------------------------------------
+ <summary>
+ rate of field rotation in radians per second: calculates rate based on last two calls to CalcAngleViaTrig(),
+ assuming that sidT has changed between calls, rate can be very high, though the rate cannot be sustained
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/1/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.InitMatrix(System.Int32)">
+ -----------------------------------------------------------------------------
+ <summary>
+ to use, put values to init into current, then call initMatrix(x) with x = desired init
+ function performs all possible inits from the beginning: for example, need only call initMatrix(1) once 
+ to also init two and three
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.subrS(System.Double,System.Double,System.Double,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ per Taki's eq 5.3-4
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.subrB(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ per Taki's eq 5.3-2
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.subrT(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ per Taki's eq 5.3-5/6 (Taki says 2 loops sufficient for z errors of 1 deg),
+ FabErrors.Z1.rad=1, FabErrors.Z2.rad=-1, faberrors.z3=1, alt/az=88/100 loops needed 6 FabErrors.Z1.rad=2, FabErrors.Z2.rad=-2, faberrors.z3=0, alt/az=90/100 loops needed 22
+ will not converge if .dec or .alt = 90 deg and FabErrors.Z1.rad2 non-zero and equat init adopted (could be because of poor initial guess by subrB())
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.subrU(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ use apparent alt derivation from Larry Bell, apparent az from Taki's iterative solution
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.getApparentAlt(System.Double,System.Double,System.Double,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ per Larry Bell's derivation
+ FabErrors.Z1.rad rotation done between alt and az rotations so no closed algebraic solution, instead, search iteratively
+ 'pH' is alt, 'pF' is az
+ apparent coordinates are what the encoders see, and are our goal
+ </summary>
+	<param name="cosz1"></param>
+	<param name="cosz2"></param>
+	<param name="sinz1"></param>
+	<param name="sinz2"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.subrL(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ from Larry Bell's derivation of iterative solution to FabErrors.Z1.rad, FabErrors.Z2.rad
+ </summary>
+	<param name="cosF"></param>
+	<param name="cosH"></param>
+	<param name="sinF"></param>
+	<param name="sinH"></param>
+	<param name="cosz1"></param>
+	<param name="cosz2"></param>
+	<param name="sinz1"></param>
+	<param name="sinz2"></param>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:ScopeIII.Coordinates.ConvertMatrix.subrSwitcher">
+ -----------------------------------------------------------------------------
+ <summary>
+ 'pH' is alt, 'pF' is az
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/22/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:ScopeIII.Coordinates.ConvertMatrix">
+ -----------------------------------------------------------------------------
+ Project	 : CoordXforms
+ Class	 : CoordXforms.ConvertMatrix
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Coordinate translation routines using Taki's matrix method.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	3/8/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

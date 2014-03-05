@@ -1,0 +1,14 @@
+D:\src\astro\ScopeIII\Coordinates\bin\Coordinates.dll
+D:\src\astro\ScopeIII\Coordinates\bin\Coordinates.xml
+D:\src\astro\ScopeIII\Coordinates\bin\Common.dll
+D:\src\astro\ScopeIII\Coordinates\bin\Config.dll
+D:\src\astro\ScopeIII\Coordinates\bin\Config.pdb
+D:\src\astro\ScopeIII\Coordinates\bin\Config.xml
+D:\src\astro\ScopeIII\Coordinates\bin\Common.pdb
+D:\src\astro\ScopeIII\Coordinates\bin\Common.xml
+D:\src\astro\ScopeIII\Coordinates\obj\Release\ResolveAssemblyReference.cache
+D:\src\astro\ScopeIII\Coordinates\obj\Release\Coordinates.dll
+D:\src\astro\ScopeIII\Coordinates\obj\Release\Coordinates.xml
+C:\dev\astro\ScopeIII\Coordinates\obj\Release\ResolveAssemblyReference.cache
+C:\dev\astro\ScopeIII\Coordinates\obj\Release\Coordinates.dll
+C:\dev\astro\ScopeIII\Coordinates\obj\Release\Coordinates.xml

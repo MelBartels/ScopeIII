@@ -1,0 +1,11 @@
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Release\ScopeLibrary.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Release\ScopeLibrary.pdb
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Release\ScopeLibrary.xml
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Release\BartelsLibrary.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\bin\Release\nunit.framework.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Release\ScopeLibrary.Resources.resources
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Release\ScopeLibrary.vbproj.GenerateResource.Cache
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Release\ScopeLibrary.dll
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Release\ScopeLibrary.xml
+C:\dev\astro\ScopeIII\ScopeLibrary\obj\Release\ScopeLibrary.pdb

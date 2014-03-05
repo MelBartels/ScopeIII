@@ -1,0 +1,137 @@
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Devices.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Common.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Coordinates.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\IO.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Common.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Common.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\IO.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\IO.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Coordinates.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\bin\Coordinates.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\obj\Debug\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\obj\Debug\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2005\Projects\test\ScopeIII\Devices\obj\Debug\Devices.pdb
+D:\src\astro\ScopeIII\Devices\obj\Debug\ResolveAssemblyReference.cache
+D:\src\astro\ScopeIII\Devices\obj\Debug\Devices.dll
+D:\src\astro\ScopeIII\Devices\obj\Debug\Devices.xml
+D:\src\astro\ScopeIII\Devices\obj\Debug\Devices.pdb
+D:\src\astro\ScopeIII\Devices\bin\Devices.dll
+D:\src\astro\ScopeIII\Devices\bin\Devices.pdb
+D:\src\astro\ScopeIII\Devices\bin\Devices.xml
+D:\src\astro\ScopeIII\Devices\bin\Common.dll
+D:\src\astro\ScopeIII\Devices\bin\Config.dll
+D:\src\astro\ScopeIII\Devices\bin\Coordinates.dll
+D:\src\astro\ScopeIII\Devices\bin\IO.dll
+D:\src\astro\ScopeIII\Devices\bin\Config.pdb
+D:\src\astro\ScopeIII\Devices\bin\Config.xml
+D:\src\astro\ScopeIII\Devices\bin\Common.pdb
+D:\src\astro\ScopeIII\Devices\bin\Common.xml
+D:\src\astro\ScopeIII\Devices\bin\IO.pdb
+D:\src\astro\ScopeIII\Devices\bin\IO.xml
+D:\src\astro\ScopeIII\Devices\bin\Coordinates.pdb
+D:\src\astro\ScopeIII\Devices\bin\Coordinates.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Devices.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Config.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Coordinates.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\IO.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Config.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Config.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\IO.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\IO.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Coordinates.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Coordinates.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\BartelsLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\ScopeLibrary.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\ScopeLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\ScopeLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\BartelsLibrary.pdb
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\BartelsLibrary.xml
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\nunit.framework.dll
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\ScopeIII.Devices.Form1.resources
+D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Devices.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Devices.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Devices.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\BartelsLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Config.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Coordinates.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\IO.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\nunit.framework.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\ScopeLibrary.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\ScopeLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\ScopeLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Coordinates.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Coordinates.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\IO.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\IO.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\BartelsLibrary.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\BartelsLibrary.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Config.pdb
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\bin\Config.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\ScopeIII.Devices.Form1.resources
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.dll
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.xml
+C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\Devices\obj\Debug\Devices.pdb
+F:\dev\astro\ScopeIII\Devices\obj\Debug\ScopeIII.Devices.Form1.resources
+F:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.dll
+F:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.xml
+F:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.pdb
+C:\dev\astro\ScopeIII\Devices\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\astro\ScopeIII\Devices\obj\Debug\ScopeIII.Devices.Form1.resources
+C:\dev\astro\ScopeIII\Devices\bin\Devices.dll
+C:\dev\astro\ScopeIII\Devices\bin\Devices.pdb
+C:\dev\astro\ScopeIII\Devices\bin\Devices.xml
+C:\dev\astro\ScopeIII\Devices\bin\BartelsLibrary.dll
+C:\dev\astro\ScopeIII\Devices\bin\Config.dll
+C:\dev\astro\ScopeIII\Devices\bin\Coordinates.dll
+C:\dev\astro\ScopeIII\Devices\bin\IO.dll
+C:\dev\astro\ScopeIII\Devices\bin\nunit.framework.dll
+C:\dev\astro\ScopeIII\Devices\bin\ScopeLibrary.dll
+C:\dev\astro\ScopeIII\Devices\bin\ScopeLibrary.pdb
+C:\dev\astro\ScopeIII\Devices\bin\ScopeLibrary.xml
+C:\dev\astro\ScopeIII\Devices\bin\Coordinates.pdb
+C:\dev\astro\ScopeIII\Devices\bin\Coordinates.xml
+C:\dev\astro\ScopeIII\Devices\bin\IO.pdb
+C:\dev\astro\ScopeIII\Devices\bin\IO.xml
+C:\dev\astro\ScopeIII\Devices\bin\Config.pdb
+C:\dev\astro\ScopeIII\Devices\bin\Config.xml
+C:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.dll
+C:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.xml
+C:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.pdb
+C:\dev\astro\ScopeIII\Devices\obj\Debug\GenerateResource.read.1.tlog
+C:\dev\astro\ScopeIII\Devices\obj\Debug\GenerateResource.write.1.tlog
+C:\dev\astro\ScopeIII\Devices\bin\xunit.dll
+F:\dev\astro\ScopeIII\Devices\bin\Devices.dll
+F:\dev\astro\ScopeIII\Devices\bin\Devices.pdb
+F:\dev\astro\ScopeIII\Devices\bin\Devices.xml
+F:\dev\astro\ScopeIII\Devices\bin\BartelsLibrary.dll
+F:\dev\astro\ScopeIII\Devices\bin\Config.dll
+F:\dev\astro\ScopeIII\Devices\bin\Coordinates.dll
+F:\dev\astro\ScopeIII\Devices\bin\IO.dll
+F:\dev\astro\ScopeIII\Devices\bin\nunit.framework.dll
+F:\dev\astro\ScopeIII\Devices\bin\ScopeLibrary.dll
+F:\dev\astro\ScopeIII\Devices\bin\xunit.dll
+F:\dev\astro\ScopeIII\Devices\bin\Config.pdb
+F:\dev\astro\ScopeIII\Devices\bin\Config.xml
+F:\dev\astro\ScopeIII\Devices\bin\Coordinates.pdb
+F:\dev\astro\ScopeIII\Devices\bin\Coordinates.xml
+F:\dev\astro\ScopeIII\Devices\bin\IO.pdb
+F:\dev\astro\ScopeIII\Devices\bin\IO.xml
+F:\dev\astro\ScopeIII\Devices\bin\ScopeLibrary.pdb
+F:\dev\astro\ScopeIII\Devices\bin\ScopeLibrary.xml
+F:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.vbprojResolveAssemblyReference.cache
+F:\dev\astro\ScopeIII\Devices\obj\Debug\Devices.vbproj.GenerateResource.Cache

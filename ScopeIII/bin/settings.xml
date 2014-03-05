@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SettingsPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Settings>
+    <anyType xsi:type="Setting">
+      <Name>DevicesSettings</Name>
+      <Tag xsi:type="DevicesSettings">
+        <Name>DevicesSettings</Name>
+        <DevicesPropContainer>
+          <PropContainer>
+            <Properties>
+              <anyType xsi:type="PropParm">
+                <Category>Devices.</Category>
+                <Name>Encoder</Name>
+                <Type>ScopeIII.Config.PropContainer, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</Type>
+                <TypeConverter>ScopeIII.Config.PropContainerConverter, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</TypeConverter>
+              </anyType>
+              <anyType xsi:type="PropParm">
+                <Category>Devices.</Category>
+                <Name>EncodersBox</Name>
+                <Type>ScopeIII.Config.PropContainer, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</Type>
+                <TypeConverter>ScopeIII.Config.PropContainerConverter, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</TypeConverter>
+              </anyType>
+              <anyType xsi:type="PropParm">
+                <Category>Devices.</Category>
+                <Name>ServoMotor</Name>
+                <Type>ScopeIII.Config.PropContainer, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</Type>
+                <TypeConverter>ScopeIII.Config.PropContainerConverter, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</TypeConverter>
+              </anyType>
+              <anyType xsi:type="PropParm">
+                <Category>Devices.</Category>
+                <Name>SiTechController</Name>
+                <Type>ScopeIII.Config.PropContainer, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</Type>
+                <TypeConverter>ScopeIII.Config.PropContainerConverter, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</TypeConverter>
+              </anyType>
+              <anyType xsi:type="PropParm">
+                <Category>Devices.</Category>
+                <Name>JRKerrServoController</Name>
+                <Type>ScopeIII.Config.PropContainer, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</Type>
+                <TypeConverter>ScopeIII.Config.PropContainerConverter, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</TypeConverter>
+              </anyType>
+              <anyType xsi:type="PropParm">
+                <Category>Devices.</Category>
+                <Name>CustomDevice</Name>
+                <Type>ScopeIII.Config.PropContainer, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</Type>
+                <TypeConverter>ScopeIII.Config.PropContainerConverter, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</TypeConverter>
+              </anyType>
+              <anyType xsi:type="PropParm">
+                <Category>Devices.</Category>
+                <Name>TestDevice</Name>
+                <Type>ScopeIII.Config.PropContainer, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</Type>
+                <TypeConverter>ScopeIII.Config.PropContainerConverter, Config, Version=1.0.3091.39353, Culture=neutral, PublicKeyToken=null</TypeConverter>
+              </anyType>
+            </Properties>
+          </PropContainer>
+          <IDevices>
+            <anyType xsi:type="Encoder">
+              <IDevices />
+              <Properties>
+                <anyType xsi:type="DevPropName">
+                  <ObservableImp />
+                  <Value>Encoder</Value>
+                  <Name>Encoder</Name>
+                </anyType>
+                <anyType xsi:type="DevPropType">
+                  <ObservableImp />
+                  <Value>Encoder</Value>
+                  <Type>Encoder</Type>
+                </anyType>
+                <anyType xsi:type="DevPropStatus">
+                  <ObservableImp />
+                  <Value>Active</Value>
+                  <Statuses>
+                    <anyType xsi:type="StatusTypeValuePair">
+                      <Type>DeviceStatus</Type>
+                      <Value>Active</Value>
+                    </anyType>
+                  </Statuses>
+                </anyType>
+                <anyType xsi:type="DevPropIOType">
+                  <ObservableImp />
+                  <Value>SerialPort</Value>
+                  <IOType>SerialPort</IOType>
+                </anyType>
+                <anyType xsi:type="EncoderValue">
+                  <ObservableImp />
+                  <Value>0</Value>
+                  <ValueName>EncoderValue</ValueName>
+                  <MinValue>0</MinValue>
+                  <MaxValue>9999</MaxValue>
+                  <UOM>Counts</UOM>
+                  <ValueType>EncoderValue</ValueType>
+                  <ValueStatus>ValidRead</ValueStatus>
+                  <Carries>0</Carries>
+                  <Rotation>CW</Rotation>
+                </anyType>
+              </Properties>
+              <DeviceTemplateArrayIx>18</DeviceTemplateArrayIx>
+              <Value>0</Value>
+            </anyType>
+            <anyType xsi:type="EncodersBox">
+              <IDevices>
+                <anyType xsi:type="Encoder">
+                  <IDevices />
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>PriAxisEncoder</Value>
+                      <Name>PriAxisEncoder</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>Encoder</Value>
+                      <Type>Encoder</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="EncoderValue">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>EncoderValue</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>9999</MaxValue>
+                      <UOM>Counts</UOM>
+                      <ValueType>EncoderValue</ValueType>
+                      <ValueStatus>ValidRead</ValueStatus>
+                      <Carries>0</Carries>
+                      <Rotation>CW</Rotation>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>20</DeviceTemplateArrayIx>
+                  <Value>0</Value>
+                </anyType>
+                <anyType xsi:type="Encoder">
+                  <IDevices />
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>SecAxisEncoder</Value>
+                      <Name>SecAxisEncoder</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>Encoder</Value>
+                      <Type>Encoder</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="EncoderValue">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>EncoderValue</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>9999</MaxValue>
+                      <UOM>Counts</UOM>
+                      <ValueType>EncoderValue</ValueType>
+                      <ValueStatus>ValidRead</ValueStatus>
+                      <Carries>0</Carries>
+                      <Rotation>CW</Rotation>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>21</DeviceTemplateArrayIx>
+                  <Value>0</Value>
+                </anyType>
+              </IDevices>
+              <Properties>
+                <anyType xsi:type="DevPropName">
+                  <ObservableImp />
+                  <Value>EncodersBox</Value>
+                  <Name>EncodersBox</Name>
+                </anyType>
+                <anyType xsi:type="DevPropType">
+                  <ObservableImp />
+                  <Value>EncodersBox</Value>
+                  <Type>EncodersBox</Type>
+                </anyType>
+                <anyType xsi:type="DevPropStatus">
+                  <ObservableImp />
+                  <Value>Active</Value>
+                  <Statuses>
+                    <anyType xsi:type="StatusTypeValuePair">
+                      <Type>DeviceStatus</Type>
+                      <Value>Active</Value>
+                    </anyType>
+                  </Statuses>
+                </anyType>
+                <anyType xsi:type="DevPropIOType">
+                  <ObservableImp />
+                  <Value>SerialPort</Value>
+                  <IOType>SerialPort</IOType>
+                </anyType>
+                <anyType xsi:type="DevPropDeviceCmdSet">
+                  <ObservableImp />
+                  <Value>TangentEncodersWithResetR</Value>
+                  <Name>TangentEncodersWithResetR</Name>
+                </anyType>
+              </Properties>
+              <DeviceTemplateArrayIx>19</DeviceTemplateArrayIx>
+              <PriAxisName>PriAxisEncoder</PriAxisName>
+              <SecAxisName>SecAxisEncoder</SecAxisName>
+            </anyType>
+            <anyType xsi:type="ServoMotor">
+              <IDevices>
+                <anyType xsi:type="Encoder">
+                  <IDevices />
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>Motor Encoder</Value>
+                      <Name>Motor Encoder</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>Encoder</Value>
+                      <Type>Encoder</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="EncoderValue">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>EncoderValue</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>9999</MaxValue>
+                      <UOM>Counts</UOM>
+                      <ValueType>EncoderValue</ValueType>
+                      <ValueStatus>ValidRead</ValueStatus>
+                      <Carries>0</Carries>
+                      <Rotation>CW</Rotation>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>23</DeviceTemplateArrayIx>
+                  <Value>0</Value>
+                </anyType>
+              </IDevices>
+              <Properties>
+                <anyType xsi:type="DevPropName">
+                  <ObservableImp />
+                  <Value>ServoMotor</Value>
+                  <Name>ServoMotor</Name>
+                </anyType>
+                <anyType xsi:type="DevPropType">
+                  <ObservableImp />
+                  <Value>ServoMotor</Value>
+                  <Type>ServoMotor</Type>
+                </anyType>
+                <anyType xsi:type="DevPropStatus">
+                  <ObservableImp />
+                  <Value>Active</Value>
+                  <Statuses>
+                    <anyType xsi:type="StatusTypeValuePair">
+                      <Type>DeviceStatus</Type>
+                      <Value>Active</Value>
+                    </anyType>
+                  </Statuses>
+                </anyType>
+                <anyType xsi:type="DevPropIOType">
+                  <ObservableImp />
+                  <Value>SerialPort</Value>
+                  <IOType>SerialPort</IOType>
+                </anyType>
+                <anyType xsi:type="ValueObject">
+                  <ObservableImp />
+                  <Value>1000</Value>
+                  <ValueName>Acceleration</ValueName>
+                  <MinValue>0</MinValue>
+                  <MaxValue>3900</MaxValue>
+                  <UOM>TicksPerSecPerSec</UOM>
+                </anyType>
+                <anyType xsi:type="ValueObject">
+                  <ObservableImp />
+                  <Value>0</Value>
+                  <ValueName>Velocity</ValueName>
+                  <MinValue>0</MinValue>
+                  <MaxValue>2147483647</MaxValue>
+                  <UOM>TicksPerSec</UOM>
+                </anyType>
+                <anyType xsi:type="DevPropRotation">
+                  <ObservableImp />
+                  <Value>No</Value>
+                  <Rotation>No</Rotation>
+                </anyType>
+                <anyType xsi:type="ServoGain">
+                  <ObservableImp />
+                  <Value>0, 0, 0, 0</Value>
+                  <PositionGainKp>0</PositionGainKp>
+                  <DerivativeGainKd>0</DerivativeGainKd>
+                  <IntegralGainKi>0</IntegralGainKi>
+                  <IntegrationLimitIL>0</IntegrationLimitIL>
+                </anyType>
+              </Properties>
+              <DeviceTemplateArrayIx>22</DeviceTemplateArrayIx>
+            </anyType>
+            <anyType xsi:type="SiTechController">
+              <IDevices>
+                <anyType xsi:type="ServoMotor">
+                  <IDevices>
+                    <anyType xsi:type="Encoder">
+                      <IDevices />
+                      <Properties>
+                        <anyType xsi:type="DevPropName">
+                          <ObservableImp />
+                          <Value>Motor Encoder</Value>
+                          <Name>Motor Encoder</Name>
+                        </anyType>
+                        <anyType xsi:type="DevPropType">
+                          <ObservableImp />
+                          <Value>Encoder</Value>
+                          <Type>Encoder</Type>
+                        </anyType>
+                        <anyType xsi:type="DevPropStatus">
+                          <ObservableImp />
+                          <Value>Active</Value>
+                          <Statuses>
+                            <anyType xsi:type="StatusTypeValuePair">
+                              <Type>DeviceStatus</Type>
+                              <Value>Active</Value>
+                            </anyType>
+                          </Statuses>
+                        </anyType>
+                        <anyType xsi:type="DevPropIOType">
+                          <ObservableImp />
+                          <Value>SerialPort</Value>
+                          <IOType>SerialPort</IOType>
+                        </anyType>
+                        <anyType xsi:type="EncoderValue">
+                          <ObservableImp />
+                          <Value>0</Value>
+                          <ValueName>EncoderValue</ValueName>
+                          <MinValue>0</MinValue>
+                          <MaxValue>9999</MaxValue>
+                          <UOM>Counts</UOM>
+                          <ValueType>EncoderValue</ValueType>
+                          <ValueStatus>ValidRead</ValueStatus>
+                          <Carries>0</Carries>
+                          <Rotation>CW</Rotation>
+                        </anyType>
+                      </Properties>
+                      <DeviceTemplateArrayIx>26</DeviceTemplateArrayIx>
+                      <Value>0</Value>
+                    </anyType>
+                  </IDevices>
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>PriAxisServoMotor</Value>
+                      <Name>PriAxisServoMotor</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>ServoMotor</Value>
+                      <Type>ServoMotor</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="ValueObject">
+                      <ObservableImp />
+                      <Value>1000</Value>
+                      <ValueName>Acceleration</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>3900</MaxValue>
+                      <UOM>TicksPerSecPerSec</UOM>
+                    </anyType>
+                    <anyType xsi:type="ValueObject">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>Velocity</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>2147483647</MaxValue>
+                      <UOM>TicksPerSec</UOM>
+                    </anyType>
+                    <anyType xsi:type="DevPropRotation">
+                      <ObservableImp />
+                      <Value>No</Value>
+                      <Rotation>No</Rotation>
+                    </anyType>
+                    <anyType xsi:type="ServoGain">
+                      <ObservableImp />
+                      <Value>20000, 32000, 5000, 20000</Value>
+                      <PositionGainKp>20000</PositionGainKp>
+                      <DerivativeGainKd>32000</DerivativeGainKd>
+                      <IntegralGainKi>5000</IntegralGainKi>
+                      <IntegrationLimitIL>20000</IntegrationLimitIL>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>25</DeviceTemplateArrayIx>
+                </anyType>
+                <anyType xsi:type="ServoMotor">
+                  <IDevices>
+                    <anyType xsi:type="Encoder">
+                      <IDevices />
+                      <Properties>
+                        <anyType xsi:type="DevPropName">
+                          <ObservableImp />
+                          <Value>Motor Encoder</Value>
+                          <Name>Motor Encoder</Name>
+                        </anyType>
+                        <anyType xsi:type="DevPropType">
+                          <ObservableImp />
+                          <Value>Encoder</Value>
+                          <Type>Encoder</Type>
+                        </anyType>
+                        <anyType xsi:type="DevPropStatus">
+                          <ObservableImp />
+                          <Value>Active</Value>
+                          <Statuses>
+                            <anyType xsi:type="StatusTypeValuePair">
+                              <Type>DeviceStatus</Type>
+                              <Value>Active</Value>
+                            </anyType>
+                          </Statuses>
+                        </anyType>
+                        <anyType xsi:type="DevPropIOType">
+                          <ObservableImp />
+                          <Value>SerialPort</Value>
+                          <IOType>SerialPort</IOType>
+                        </anyType>
+                        <anyType xsi:type="EncoderValue">
+                          <ObservableImp />
+                          <Value>0</Value>
+                          <ValueName>EncoderValue</ValueName>
+                          <MinValue>0</MinValue>
+                          <MaxValue>9999</MaxValue>
+                          <UOM>Counts</UOM>
+                          <ValueType>EncoderValue</ValueType>
+                          <ValueStatus>ValidRead</ValueStatus>
+                          <Carries>0</Carries>
+                          <Rotation>CW</Rotation>
+                        </anyType>
+                      </Properties>
+                      <DeviceTemplateArrayIx>28</DeviceTemplateArrayIx>
+                      <Value>0</Value>
+                    </anyType>
+                  </IDevices>
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>SecAxisServoMotor</Value>
+                      <Name>SecAxisServoMotor</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>ServoMotor</Value>
+                      <Type>ServoMotor</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="ValueObject">
+                      <ObservableImp />
+                      <Value>1000</Value>
+                      <ValueName>Acceleration</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>3900</MaxValue>
+                      <UOM>TicksPerSecPerSec</UOM>
+                    </anyType>
+                    <anyType xsi:type="ValueObject">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>Velocity</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>2147483647</MaxValue>
+                      <UOM>TicksPerSec</UOM>
+                    </anyType>
+                    <anyType xsi:type="DevPropRotation">
+                      <ObservableImp />
+                      <Value>No</Value>
+                      <Rotation>No</Rotation>
+                    </anyType>
+                    <anyType xsi:type="ServoGain">
+                      <ObservableImp />
+                      <Value>20000, 32000, 5000, 20000</Value>
+                      <PositionGainKp>20000</PositionGainKp>
+                      <DerivativeGainKd>32000</DerivativeGainKd>
+                      <IntegralGainKi>5000</IntegralGainKi>
+                      <IntegrationLimitIL>20000</IntegrationLimitIL>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>27</DeviceTemplateArrayIx>
+                </anyType>
+                <anyType xsi:type="Encoder">
+                  <IDevices />
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>PriAxisEncoder</Value>
+                      <Name>PriAxisEncoder</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>Encoder</Value>
+                      <Type>Encoder</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="EncoderValue">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>EncoderValue</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>9999</MaxValue>
+                      <UOM>Counts</UOM>
+                      <ValueType>EncoderValue</ValueType>
+                      <ValueStatus>ValidRead</ValueStatus>
+                      <Carries>0</Carries>
+                      <Rotation>CW</Rotation>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>29</DeviceTemplateArrayIx>
+                  <Value>0</Value>
+                </anyType>
+                <anyType xsi:type="Encoder">
+                  <IDevices />
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>SecAxisEncoder</Value>
+                      <Name>SecAxisEncoder</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>Encoder</Value>
+                      <Type>Encoder</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="EncoderValue">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>EncoderValue</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>9999</MaxValue>
+                      <UOM>Counts</UOM>
+                      <ValueType>EncoderValue</ValueType>
+                      <ValueStatus>ValidRead</ValueStatus>
+                      <Carries>0</Carries>
+                      <Rotation>CW</Rotation>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>30</DeviceTemplateArrayIx>
+                  <Value>0</Value>
+                </anyType>
+              </IDevices>
+              <Properties>
+                <anyType xsi:type="DevPropName">
+                  <ObservableImp />
+                  <Value>SiTechController</Value>
+                  <Name>SiTechController</Name>
+                </anyType>
+                <anyType xsi:type="DevPropType">
+                  <ObservableImp />
+                  <Value>SiTechController</Value>
+                  <Type>SiTechController</Type>
+                </anyType>
+                <anyType xsi:type="DevPropStatus">
+                  <ObservableImp />
+                  <Value>Active</Value>
+                  <Statuses>
+                    <anyType xsi:type="StatusTypeValuePair">
+                      <Type>DeviceStatus</Type>
+                      <Value>Active</Value>
+                    </anyType>
+                  </Statuses>
+                </anyType>
+                <anyType xsi:type="DevPropIOType">
+                  <ObservableImp />
+                  <Value>SerialPort</Value>
+                  <IOType>SerialPort</IOType>
+                </anyType>
+                <anyType xsi:type="ValueObject">
+                  <ObservableImp />
+                  <Value>0</Value>
+                  <ValueName>ModuleAddress</ValueName>
+                  <MinValue>0</MinValue>
+                  <MaxValue>255</MaxValue>
+                  <UOM>Scalar</UOM>
+                </anyType>
+                <anyType xsi:type="DevPropDeviceCmdSet">
+                  <ObservableImp />
+                  <Value>SiTechController</Value>
+                  <Name>SiTechController</Name>
+                </anyType>
+              </Properties>
+              <DeviceTemplateArrayIx>24</DeviceTemplateArrayIx>
+              <SiTechReadControllerData>
+                <ReturnBytes>AAAAAAAAAAAAAAAAAAAAAAAAAAAA</ReturnBytes>
+                <SecMotorPosition>0</SecMotorPosition>
+                <PriMotorPosition>0</PriMotorPosition>
+                <SecEncoderPosition>0</SecEncoderPosition>
+                <PriEncoderPosition>0</PriEncoderPosition>
+                <KeypadStatus>0</KeypadStatus>
+                <XBits>0</XBits>
+                <YBits>0</YBits>
+                <ExtraBits>0</ExtraBits>
+                <Checksum>0</Checksum>
+              </SiTechReadControllerData>
+            </anyType>
+            <anyType xsi:type="JRKerrServoController">
+              <IDevices>
+                <anyType xsi:type="ServoMotor">
+                  <IDevices>
+                    <anyType xsi:type="Encoder">
+                      <IDevices />
+                      <Properties>
+                        <anyType xsi:type="DevPropName">
+                          <ObservableImp />
+                          <Value>Motor Encoder</Value>
+                          <Name>Motor Encoder</Name>
+                        </anyType>
+                        <anyType xsi:type="DevPropType">
+                          <ObservableImp />
+                          <Value>Encoder</Value>
+                          <Type>Encoder</Type>
+                        </anyType>
+                        <anyType xsi:type="DevPropStatus">
+                          <ObservableImp />
+                          <Value>Active</Value>
+                          <Statuses>
+                            <anyType xsi:type="StatusTypeValuePair">
+                              <Type>DeviceStatus</Type>
+                              <Value>Active</Value>
+                            </anyType>
+                          </Statuses>
+                        </anyType>
+                        <anyType xsi:type="DevPropIOType">
+                          <ObservableImp />
+                          <Value>SerialPort</Value>
+                          <IOType>SerialPort</IOType>
+                        </anyType>
+                        <anyType xsi:type="EncoderValue">
+                          <ObservableImp />
+                          <Value>0</Value>
+                          <ValueName>EncoderValue</ValueName>
+                          <MinValue>0</MinValue>
+                          <MaxValue>9999</MaxValue>
+                          <UOM>Counts</UOM>
+                          <ValueType>EncoderValue</ValueType>
+                          <ValueStatus>ValidRead</ValueStatus>
+                          <Carries>0</Carries>
+                          <Rotation>CW</Rotation>
+                        </anyType>
+                      </Properties>
+                      <DeviceTemplateArrayIx>33</DeviceTemplateArrayIx>
+                      <Value>0</Value>
+                    </anyType>
+                  </IDevices>
+                  <Properties>
+                    <anyType xsi:type="DevPropName">
+                      <ObservableImp />
+                      <Value>ServoMotor</Value>
+                      <Name>ServoMotor</Name>
+                    </anyType>
+                    <anyType xsi:type="DevPropType">
+                      <ObservableImp />
+                      <Value>ServoMotor</Value>
+                      <Type>ServoMotor</Type>
+                    </anyType>
+                    <anyType xsi:type="DevPropStatus">
+                      <ObservableImp />
+                      <Value>Active</Value>
+                      <Statuses>
+                        <anyType xsi:type="StatusTypeValuePair">
+                          <Type>DeviceStatus</Type>
+                          <Value>Active</Value>
+                        </anyType>
+                      </Statuses>
+                    </anyType>
+                    <anyType xsi:type="DevPropIOType">
+                      <ObservableImp />
+                      <Value>SerialPort</Value>
+                      <IOType>SerialPort</IOType>
+                    </anyType>
+                    <anyType xsi:type="ValueObject">
+                      <ObservableImp />
+                      <Value>1000</Value>
+                      <ValueName>Acceleration</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>3900</MaxValue>
+                      <UOM>TicksPerSecPerSec</UOM>
+                    </anyType>
+                    <anyType xsi:type="ValueObject">
+                      <ObservableImp />
+                      <Value>0</Value>
+                      <ValueName>Velocity</ValueName>
+                      <MinValue>0</MinValue>
+                      <MaxValue>2147483647</MaxValue>
+                      <UOM>TicksPerSec</UOM>
+                    </anyType>
+                    <anyType xsi:type="DevPropRotation">
+                      <ObservableImp />
+                      <Value>No</Value>
+                      <Rotation>No</Rotation>
+                    </anyType>
+                    <anyType xsi:type="ServoGain">
+                      <ObservableImp />
+                      <Value>200, 700, 200, 700</Value>
+                      <PositionGainKp>200</PositionGainKp>
+                      <DerivativeGainKd>700</DerivativeGainKd>
+                      <IntegralGainKi>200</IntegralGainKi>
+                      <IntegrationLimitIL>700</IntegrationLimitIL>
+                    </anyType>
+                  </Properties>
+                  <DeviceTemplateArrayIx>32</DeviceTemplateArrayIx>
+                </anyType>
+              </IDevices>
+              <Properties>
+                <anyType xsi:type="DevPropName">
+                  <ObservableImp />
+                  <Value>JRKerrServoController</Value>
+                  <Name>JRKerrServoController</Name>
+                </anyType>
+                <anyType xsi:type="DevPropType">
+                  <ObservableImp />
+                  <Value>JRKerrServoController</Value>
+                  <Type>JRKerrServoController</Type>
+                </anyType>
+                <anyType xsi:type="DevPropStatus">
+                  <ObservableImp />
+                  <Value>Active</Value>
+                  <Statuses>
+                    <anyType xsi:type="StatusTypeValuePair">
+                      <Type>DeviceStatus</Type>
+                      <Value>Active</Value>
+                    </anyType>
+                  </Statuses>
+                </anyType>
+                <anyType xsi:type="DevPropIOType">
+                  <ObservableImp />
+                  <Value>SerialPort</Value>
+                  <IOType>SerialPort</IOType>
+                </anyType>
+                <anyType xsi:type="ValueObject">
+                  <ObservableImp />
+                  <Value>0</Value>
+                  <ValueName>ModuleAddress</ValueName>
+                  <MinValue>0</MinValue>
+                  <MaxValue>255</MaxValue>
+                  <UOM>Scalar</UOM>
+                </anyType>
+                <anyType xsi:type="JRKerrServoControl">
+                  <ObservableImp />
+                  <Value>255, 255, 16383, 1, 0, 1</Value>
+                  <OutputLimitOL>255</OutputLimitOL>
+                  <CurrentLimitCL>255</CurrentLimitCL>
+                  <PositionErrorLimitEL>16383</PositionErrorLimitEL>
+                  <ServoRateDivisorSR>1</ServoRateDivisorSR>
+                  <AmpDeadbandCompensationDB>0</AmpDeadbandCompensationDB>
+                  <StepRateMultiplierSM>1</StepRateMultiplierSM>
+                </anyType>
+                <anyType xsi:type="JRKerrServoStatus">
+                  <ObservableImp />
+                  <Value>0, 0, 0, False, 0, 1, 0, 0, 0, 0, 0, 0, 0, False</Value>
+                  <ModuleType>0</ModuleType>
+                  <ModuleVersion>0</ModuleVersion>
+                  <GroupAddress>0</GroupAddress>
+                  <GroupLeader>false</GroupLeader>
+                  <Status>1</Status>
+                  <AuxStatus>0</AuxStatus>
+                  <Position>0</Position>
+                  <ServoPositionError>0</ServoPositionError>
+                  <HomePosition>0</HomePosition>
+                  <AD>0</AD>
+                  <Velocity>0</Velocity>
+                  <PathPointsInBuffer>0</PathPointsInBuffer>
+                  <ChecksumIsValid>false</ChecksumIsValid>
+                  <MoveDone>true</MoveDone>
+                  <ChecksumError>false</ChecksumError>
+                  <OverCurrent>false</OverCurrent>
+                  <PowerOn>false</PowerOn>
+                  <PositionError>false</PositionError>
+                  <Limit1>false</Limit1>
+                  <Limit2>false</Limit2>
+                  <HomeInProgress>false</HomeInProgress>
+                  <Index>false</Index>
+                  <PositionWrap>false</PositionWrap>
+                  <ServoOn>false</ServoOn>
+                  <AccelerationDone>false</AccelerationDone>
+                  <SlewDone>false</SlewDone>
+                  <ServoOverrun>false</ServoOverrun>
+                  <PathMode>false</PathMode>
+                  <StatusItems>0</StatusItems>
+                  <SendPosition>false</SendPosition>
+                  <SendAD>false</SendAD>
+                  <SendVelocity>false</SendVelocity>
+                  <SendAuxStatus>false</SendAuxStatus>
+                  <SendHome>false</SendHome>
+                  <SendID>false</SendID>
+                  <SendPositionError>false</SendPositionError>
+                  <SendNumberOfPathPoints>false</SendNumberOfPathPoints>
+                </anyType>
+                <anyType xsi:type="DevPropDeviceCmdSet">
+                  <ObservableImp />
+                  <Value>JRKerrServoController</Value>
+                  <Name>JRKerrServoController</Name>
+                </anyType>
+              </Properties>
+              <DeviceTemplateArrayIx>31</DeviceTemplateArrayIx>
+            </anyType>
+            <anyType xsi:type="CustomDevice">
+              <IDevices />
+              <Properties>
+                <anyType xsi:type="DevPropName">
+                  <ObservableImp />
+                  <Value>CustomDevice</Value>
+                  <Name>CustomDevice</Name>
+                </anyType>
+                <anyType xsi:type="DevPropType">
+                  <ObservableImp />
+                  <Value>CustomDevice</Value>
+                  <Type>CustomDevice</Type>
+                </anyType>
+                <anyType xsi:type="DevPropStatus">
+                  <ObservableImp />
+                  <Value>Active</Value>
+                  <Statuses>
+                    <anyType xsi:type="StatusTypeValuePair">
+                      <Type>DeviceStatus</Type>
+                      <Value>Active</Value>
+                    </anyType>
+                  </Statuses>
+                </anyType>
+                <anyType xsi:type="DevPropIOType">
+                  <ObservableImp />
+                  <Value>SerialPort</Value>
+                  <IOType>SerialPort</IOType>
+                </anyType>
+                <anyType xsi:type="DevPropDeviceCmdSet">
+                  <ObservableImp />
+                  <Value>None</Value>
+                  <Name>None</Name>
+                </anyType>
+              </Properties>
+              <DeviceTemplateArrayIx>34</DeviceTemplateArrayIx>
+            </anyType>
+            <anyType xsi:type="TestDevice">
+              <IDevices />
+              <Properties>
+                <anyType xsi:type="DevPropName">
+                  <ObservableImp />
+                  <Value>TestDevice</Value>
+                  <Name>TestDevice</Name>
+                </anyType>
+                <anyType xsi:type="DevPropType">
+                  <ObservableImp />
+                  <Value>TestDevice</Value>
+                  <Type>TestDevice</Type>
+                </anyType>
+                <anyType xsi:type="DevPropStatus">
+                  <ObservableImp />
+                  <Value>Active</Value>
+                  <Statuses>
+                    <anyType xsi:type="StatusTypeValuePair">
+                      <Type>DeviceStatus</Type>
+                      <Value>Active</Value>
+                    </anyType>
+                  </Statuses>
+                </anyType>
+                <anyType xsi:type="DevPropIOType">
+                  <ObservableImp />
+                  <Value>SerialPort</Value>
+                  <IOType>SerialPort</IOType>
+                </anyType>
+                <anyType xsi:type="DevPropDeviceCmdSet">
+                  <ObservableImp />
+                  <Value>Test</Value>
+                  <Name>Test</Name>
+                </anyType>
+              </Properties>
+              <DeviceTemplateArrayIx>35</DeviceTemplateArrayIx>
+            </anyType>
+          </IDevices>
+        </DevicesPropContainer>
+      </Tag>
+      <Type>DevicesSettings</Type>
+    </anyType>
+  </Settings>
+</SettingsPackage>

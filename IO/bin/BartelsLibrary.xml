@@ -1,0 +1,325 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BartelsLibrary
+</name>
+</assembly>
+<members>
+<member name="M:BartelsLibrary.StringTokenizer.NextToken">
+ -----------------------------------------------------------------------------
+ <summary>
+ Return the next non-zero length string.
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/30/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.StringTokenizer.PeekNextToken">
+ -----------------------------------------------------------------------------
+ <summary>
+ Peek at the next token.
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/30/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.StringTokenizer.GetNextDouble">
+ -----------------------------------------------------------------------------
+ <summary>
+ Allow parsing of tokens that match '+ 34.567' where there's a space between the sign and the double value.
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	3/21/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.StringTokenizer.GetNextInt32">
+ -----------------------------------------------------------------------------
+ <summary>
+ Allow parsing of tokens that match '+ 34' where there's a space between the sign and the int32 value.
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	3/21/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.StringTokenizer.StringToEOL">
+ -----------------------------------------------------------------------------
+ <summary>
+ Return a concatenation of remaining strings to EOL.
+ Will consolidate blanks, eg, "1   x y  z" will return "1 z y z".
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/30/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:BartelsLibrary.StringTokenizer">
+ -----------------------------------------------------------------------------
+ Project	 : Common
+ Class	 : Common.StringTokenizer
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Utility or library class.
+ Splits a string into tokens, skipping over empty string tokens.
+ Takes optional list of char delimiters.
+ Includes a PeekNextToken() to return next token without advancing the token marker.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	3/30/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:BartelsLibrary.TestFrmProgressBarBeginInvoke">
+ -----------------------------------------------------------------------------
+ Project	 : Forms
+ Class	 : Forms.TestFrmProgressBarBeginInvoke
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ 
+ http://msdn.microsoft.com/msdnmag/issues/03/02/Multithreading/
+ 
+ 
+ ex of callback using EventHandler:
+ 
+ // Created on UI thread
+ private Label lblStatus;
+ •••
+ // Doesn't run on UI thread
+ private void RunsOnWorkerThread() {
+     DoSomethingSlow();
+     // Do UI update on UI thread
+     object[] pList = { this, System.EventArgs.Empty };
+     lblStatus.BeginInvoke(new System.EventHandler(UpdateUI), pList);
+ }
+ •••
+ // Code to be run back on the UI thread (using System.EventHandler signature so we don't need to define a new delegate type here)
+ private void UpdateUI(object o, System.EventArgs e) {
+     // Now OK - this method will be called via Control.Invoke, so we are allowed to do things to the UI.
+     lblStatus.Text = "Finished!";
+ }
+ 
+ 
+ ex of wrapping calls:
+ 
+ public class MyForm : System.Windows.Forms.Form {
+     ...
+     public void ShowProgress(string msg, int percentDone) {
+         // Wrap the parameters in some EventArgs-derived custom class:
+         System.EventArgs e = new MyProgressEvents(msg, percentDone);
+         object[] pList = { this, e };
+ 
+         // Invoke the method. This class is derived from Form, so we can just call BeginInvoke to get to the UI thread.
+         BeginInvoke(new MyProgressEventsHandler(UpdateUI), pList);
+     }
+ 
+     private delegate void MyProgressEventsHandler(object sender, MyProgressEvents e);
+ 
+     private void UpdateUI(object sender, MyProgressEvents e) {
+         lblStatus.Text = e.Msg;
+         myProgressControl.Value = e.PercentDone;
+     }
+ }
+ 
+ above ex including the InvokeRequired check to avoid unnecessarily creating another thread:
+ 
+ public void ShowProgress(string msg, int percentDone) {
+     if (InvokeRequired) {
+         // As before above
+         •••
+     } else {
+         // We're already on the UI thread just call straight through.
+         UpdateUI(this, new MyProgressEvents(msg,
+             PercentDone));
+     }
+ }
+ 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[mbartels]	4/27/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.ValidRad(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ bring a number in radians within the bounds of 0 to 2*Pi
+ </summary>
+	<param name="rad"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/20/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.ValidRadPi(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+  bring a number in radians within the bounds of 0 to 2*Pi but then adjust
+  the return value to be between -Pi to +Pi
+ </summary>
+	<param name="rad"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/20/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.ValidRadHalfPi(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+  bring a number in radians within the bounds of 0 to 2*Pi but then adjust
+ the return value to be between -Pi/2 to +Pi/2
+ </summary>
+	<param name="rad"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	5/7/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.ReverseRad(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Reverses a radian value, eg, 3/4 rev is converted to 1/4 rev
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	5/15/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.ReverseRadPi(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ Reverses a radian value within Pi bounds, eg, 1/4 rev is converted to -1/4 rev
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	5/15/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.ReverseRad(System.Boolean,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ reverses if conditional is true
+ </summary>
+	<param name="reverse"></param>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	5/15/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.ReverseRadPi(System.Boolean,System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ reverses if conditional is true
+ </summary>
+	<param name="reverse"></param>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	5/15/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.Quadrant(System.Double)">
+	<summary>
+ quadrant 1 is 0-90 
+ quadrant 2 is 90-180
+ quadrant 3 is 180-270  
+ quadrant 4 is 270-360 
+ </summary>
+	<param name="radian"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BartelsLibrary.eMath.BoundsSinCos(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ bring a number within legal bounds of sine and cosine (between -1 and 1)
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/20/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:BartelsLibrary.eMath.Cot(System.Double)">
+ -----------------------------------------------------------------------------
+ <summary>
+ cotangent
+ </summary>
+	<param name="value"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	2/20/2005	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:BartelsLibrary.TestMVPUserCtrlGraphics">
+ -----------------------------------------------------------------------------
+ Project	 : TJModelViewControllerMediator
+ Class	 : Common.TestMVPUserCtrlGraphics
+ 
+ -----------------------------------------------------------------------------
+ <summary>
+ Create this class to illustrate how to draw graphics in the IDE Designer.
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+ 	[MBartels]	3/7/2006	Created
+ </history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

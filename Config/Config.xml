@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>Config</name>
+    <version>1.0.2412.33923</version>
+    <fullname>Config, Version=1.0.2412.33923, Culture=neutral, PublicKeyToken=null</fullname>
+  </assembly>
+  <members>
+    <member name="M:ScopeIII.Config.PreLoadConfig.IncludeTypes">
+      <summary>
+ include types before serialize/deserialize that occurs in load/save 
+ </summary>
+ <returns />
+ <remarks>
+ </remarks>
+ <history>
+ 	[mbartels]	8/11/2005	Created 
+ </history></member>
+    <member name="T:ScopeIII.Config.PropContainer">
+      <summary>
+ To use: 
+ 1. Write a class that encapsulates PropContainer, or inherits PropContainer, then create an instance. 
+ 2. Set the property grid's selected object to the instance's PropValues, ie, 
+ Dim PGClass As PGClass (encapsultes a PropValues instance) = PGClass.GetInstance 
+ propGrid.SelectedObject = PGClass.PropValues 
+ 
+ When a property is set, a PropValues is instantiated and filled. 
+ 1. a PropParm is instantiated and .Init called using the property's key (use its name); 
+    the PropParm simply holds the properites: Attribute, Category, DefaultValue, Description, Editor, Name, Type, TypeConverter 
+ 2. the PropParm is added to the PropValues.Properties (PropContainer.[get_]Properties returns the properties 
+    and PropContainer.PropParmCollection.Add adds the PropParm) 
+ 3. the PropParm's value is set: PropValues(key) = value; (PropValues.[set_]Item stores key and value) 
+ 
+ PropValues inherits from PropContainer, and provides a hashtable to store the values, 
+ along with OnSetValue and OnGetValue event handlers that get/set the particular values. 
+ 
+ PropContainer is a busy class, Implementing ICustomTypeDescriptor, and containing 2 inner classes: 
+ Serializable PropParmCollection and private PropParmDescriptor. 
+ 
+ PropContainer has 2 events: Get/SetValue As PropParmEventHandler. 
+ Events from the property grid start in the PropContainer.PropParmDescriptor.OnGet/SetValue methods, 
+ which call PropValues.OnGet/SetValues (via a MyBase. overriding call), where values are pulled/inserted 
+ into the hashtable and the events raised.  The raised set event is to be handled in the PGClass, 
+ which updates the value.  Depending on if the value is being observed, another event may be raised 
+ or an observer notifed. 
+ 
+ Why ICustomTypeDescriptor?  "ICustomTypeDescriptor allows an object to provide type information about itself. 
+ Typically, this interface is used when an object needs dynamic type information." 
+ TypeDescriptor.GetProperties is intercepted and properties substituted as found in Properties (PropParmCollection). 
+ This is done for each PropParm and a single new PropertyDescriptorCollection is returned encompassing all PropParm's. 
+ 
+ PropParmCollection, internal class of PropContainer, implements IList (which implements ICollection), 
+ storing PropParms in an internal array. PropParmCollection needs to be serializable.  PropParmCollection 
+ is used by PropContainer's public property Properties. 
+ 
+ PropParmDescriptor, the other internal class of PropContainer, inherits PropertyDescriptor, 
+ has its own private PropContainer and PropParm.  These two private instances are loaded through 
+ the constructor's parameters.  Private PropContainer is used by PropParmDescriptor to call OnSet/GetValue. 
+ Private PropParmDescriptor is used by PropContainer's GetDefaultProperty and GetProperties. 
+ 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[MBartels]	7/4/2005	Created 
+ </history></member>
+    <member name="T:ScopeIII.Config.PropContainer.PropParmCollection">
+      <summary>
+ Save property parameters collection to private ArrayList 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[MBartels]	6/29/2005	Created 
+ </history></member>
+    <member name="T:ScopeIII.Config.ChildClassConverter">
+      <summary>
+ To display custom data type with collapsible list, use a TypeConverter that converts 
+ between object and string.  Use it with the property definition of the object, ie, 
+ </summary>
+    </member>
+  </members>
+</doc>

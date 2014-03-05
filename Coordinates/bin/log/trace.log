@@ -1,0 +1,84 @@
+Logging message at: 6/18/2008 2:47:56 PM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 6/18/2008 2:47:57 PM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================
+Logging message at: 6/18/2008 2:47:58 PM
+Message: Test exception
+=============================================================
+Logging message at: 7/17/2008 12:19:33 PM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 7/17/2008 12:19:34 PM
+Message: Test exception
+=============================================================
+Logging message at: 7/17/2008 12:19:35 PM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================
+Logging message at: 7/19/2008 8:32:50 PM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================
+Logging message at: 7/19/2008 8:32:50 PM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 7/19/2008 8:32:51 PM
+Message: Test exception
+=============================================================
+Logging message at: 7/19/2008 9:06:23 PM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 7/19/2008 9:06:24 PM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================
+Logging message at: 7/19/2008 9:06:25 PM
+Message: Test exception
+=============================================================
+Logging message at: 7/29/2008 2:27:42 PM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 7/29/2008 2:27:42 PM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================
+Logging message at: 7/29/2008 2:27:43 PM
+Message: Test exception
+=============================================================
+Logging message at: 7/29/2008 8:40:51 PM
+Message: custom message
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingExceptionWithCustomMessage() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 49
+=============================================================
+Logging message at: 7/29/2008 8:40:51 PM
+Exception Message: Test throwing exception
+Exception InnerException: 
+Exception StackTrace:    at BartelsLibrary.TestExceptionService.testThrowingException() in C:\Documents and Settings\Mel\My Documents\Visual Studio 2008\Projects\library\BartelsLibrary\BartelsLibrary\UnitTests\TestExceptionService.vb:line 41
+=============================================================
+Logging message at: 7/29/2008 8:40:52 PM
+Message: Test exception
+=============================================================

@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{445AB76B-240F-4AFC-813D-954720CF5F8F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Devices</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>ScopeIII.Devices</RootNamespace>
+    <StartupObject>ScopeIII.Devices.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Devices.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Devices.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BartelsLibrary, Version=1.0.3375.38010, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\BartelsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.2.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <ProjectReference Include="..\Config\Config.vbproj">
+      <Name>Config</Name>
+      <Project>{FE6DC93D-6D39-41E0-9927-3BC4631F7FD3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Coordinates\Coordinates.vbproj">
+      <Name>Coordinates</Name>
+      <Project>{5F416284-E656-4DC3-857A-5EA0021E672F}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\IO\IO.vbproj">
+      <Name>IO</Name>
+      <Project>{98AD0011-580B-45BD-B5B7-CE1A21D6E64D}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ScopeLibrary\ScopeLibrary.vbproj">
+      <Project>{2EBD79BB-BABE-4C13-A120-DB14928EFC7D}</Project>
+      <Name>ScopeLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="BartelsLibrary" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="ScopeIII.Config" />
+    <Import Include="ScopeIII.Coordinates" />
+    <Import Include="ScopeIII.IO" />
+    <Import Include="ScopeLibrary" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorJRKerrServoStatusByteBitDefs.vb" />
+    <Compile Include="Adapters\PropGrid\DevPropToPropGridAdapterBase.vb" />
+    <Compile Include="Adapters\PropGrid\JRKerrServoStatusToPropGridAdapter.vb" />
+    <Compile Include="Adapters\PropGrid\ServoGainToPropGridAdapter.vb" />
+    <Compile Include="Adapters\PropGrid\JRKerrServoControlToPropGridAdapter.vb" />
+    <Compile Include="Adapters\PropGrid\ValueObjectToPropGridAdapter.vb" />
+    <Compile Include="Adapters\PropGrid\DevicesPropContainer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\DeviceToHierarchicalAdapter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\PropGrid\EncoderValueToPropGridAdapter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\PropGrid\DevPropContainer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorDeviceCmdSet.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorDeviceName.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorDevices.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorDeviceStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorIOType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorRotation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorSensorStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorSensorTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Adapters\ListView\ListViewTypeEditorUOM.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\CmdListComparer.vb" />
+    <Compile Include="Cmds\JRKerr\JRKerrUpdateDeviceCmdAndReplyTemplate.vb" />
+    <Compile Include="Cmds\SiTech\SiTechAxes.vb" />
+    <Compile Include="Cmds\SiTech\SiTechUpdateDeviceCmdAndReplyTemplate.vb" />
+    <Compile Include="Devices\SiTechUtil.vb" />
+    <Compile Include="Cmds\UpdateDeviceCmdsObserver.vb" />
+    <Compile Include="Cmds\DeviceCmdAndReplyTemplateDefaults.vb" />
+    <Compile Include="Cmds\DeviceCmdsFacade.vb" />
+    <Compile Include="Cmds\DeviceCmdAndReplyTemplate.vb" />
+    <Compile Include="Cmds\IUpdateDeviceCmdAndReplyTemplate.vb" />
+    <Compile Include="Cmds\JRKerr\JRKerrDeviceCmdMsgDiscriminator.vb" />
+    <Compile Include="Cmds\IDeviceCmdDiscriminator.vb" />
+    <Compile Include="DevicesDependencyInjector.vb" />
+    <Compile Include="Properties\StatusItemsToStatusByteBitDefsAdapter.vb" />
+    <Compile Include="Properties\JRKerrServoStatusByteBitDefs.vb" />
+    <Compile Include="Properties\JRKerrServoStatus.vb" />
+    <Compile Include="Properties\JRKerrServoControl.vb" />
+    <Compile Include="Devices\JRKerrUtil.vb" />
+    <Compile Include="Cmds\JRKerr\JRKerrCmds.vb" />
+    <Compile Include="Cmds\Reply\JRKerr\JRKerrGetStatusReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\JRKerr\JRKerrSetAddressReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\JRKerr\JRKerrNmcHardResetReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechGetPriPosReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechGetSecPosReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechGetPriVelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechGetSecVelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechGetSecAccelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechGetPriAccelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechSetPriPosReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechSetSecPosReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechSetPriVelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechSetSecVelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechSetSecAccelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechSetPriAccelReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechReadControllerData.vb" />
+    <Compile Include="Cmds\Reply\SiTech\SiTechReadControllerReplyCmd.vb" />
+    <Compile Include="Cmds\Send\JRKerr\JRKerrGetStatusSendCmd.vb" />
+    <Compile Include="Cmds\Send\JRKerr\JRKerrSetAddressSendCmd.vb" />
+    <Compile Include="Cmds\Send\JRKerr\JRKerrNmcHardResetSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechGetSecPosSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechGetPriPosSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechGetSecVelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechGetPriVelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechGetSecAccelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechGetPriAccelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechSetPriPosSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechSetSecPosSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechSetPriVelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechSetSecVelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechSetSecAccelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechSetPriAccelSendCmd.vb" />
+    <Compile Include="Cmds\Send\SiTech\SiTechReadControllerSendCmd.vb" />
+    <Compile Include="Cmds\JRKerr\JRKerrCalc.vb" />
+    <Compile Include="Cmds\DeviceCmdMsgDiscriminator.vb" />
+    <Compile Include="Cmds\SiTech\SiTechCmds.vb" />
+    <Compile Include="Cmds\Reply\CmdReplyParms.vb" />
+    <Compile Include="Cmds\Receive\ReceivedCmd.vb" />
+    <Compile Include="Cmds\Reply\Tangent\TangentEncodersResetZReplyCmd.vb" />
+    <Compile Include="Cmds\Tangent\TangentEncodersWithResetZCmds.vb" />
+    <Compile Include="Cmds\Send\CmdMsgParms.vb" />
+    <Compile Include="Cmds\Send\Tangent\TangentEncodersResetZSendCmd.vb" />
+    <Compile Include="Properties\IServoGainDefaults.vb" />
+    <Compile Include="Properties\JRKerrServoGainDefaults.vb" />
+    <Compile Include="Devices\JRKerrServoController.vb" />
+    <Compile Include="Properties\SiTechServoGainDefaults.vb" />
+    <Compile Include="Properties\ServoGain.vb" />
+    <Compile Include="Properties\ValueObject.vb" />
+    <Compile Include="Properties\ValueObjectNames.vb" />
+    <Compile Include="UnitTests\TestTwoDevicesListening.vb" />
+    <Compile Include="UnitTests\EndoTestUpdateDeviceCmdsObserver.vb" />
+    <Compile Include="UnitTests\TestIUpdateDeviceCmdAndReplyTemplate.vb" />
+    <Compile Include="UnitTests\TestSiTechUtil.vb" />
+    <Compile Include="UnitTests\TestStatusItemsToStatusByteBitDefsAdapter.vb" />
+    <Compile Include="UnitTests\TestDevPropServoGain.vb" />
+    <Compile Include="UnitTests\TestAddDevProp.vb" />
+    <Compile Include="UnitTests\TestJRKerrServoControl.vb" />
+    <Compile Include="UnitTests\TestUpdateDeviceCmdSetObserver.vb" />
+    <Compile Include="UpdateDeviceCmdSetObserver.vb" />
+    <Compile Include="DeviceObservers.vb" />
+    <Compile Include="DeviceSettingsFacadeTemplate.vb" />
+    <Compile Include="IOPresenterDevice.vb" />
+    <Compile Include="Cmds\Reply\Tangent\TangentEncodersResetRReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\IDeviceReplyCmd.vb" />
+    <Compile Include="Cmds\Reply\DeviceReplyCmdBase.vb" />
+    <Compile Include="Cmds\Receive\DeviceReceiveCmdFacade.vb" />
+    <Compile Include="Cmds\DeviceCmdFacadeBase.vb" />
+    <Compile Include="DeviceToIOBridge.vb" />
+    <Compile Include="Cmds\Send\DeviceCmdBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\Send\DeviceCmdFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\DeviceCmdSet.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\Send\IDeviceCmd.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\Reply\Tangent\TangentEncodersQueryReplyCmd.vb" />
+    <Compile Include="Cmds\Tangent\TangentEncodersWithResetRCmds.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\Tangent\TangentEncodersQueryCmds.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\Send\Tangent\TangentEncodersQuerySendCmd.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cmds\Send\Tangent\TangentEncodersResetRSendCmd.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JRKerr\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JRKerr\NMCDefines.vb" />
+    <Compile Include="Devices\ServoMotor.vb" />
+    <Compile Include="Properties\DevPropRotation.vb" />
+    <Compile Include="Template\DeviceTemplateBuilder.vb" />
+    <Compile Include="UnitTests\TestDeviceCmdsFacade.vb" />
+    <Compile Include="UnitTests\TestDeviceReplyCmd.vb" />
+    <Compile Include="UnitTests\TestDeviceCmd.vb" />
+    <Compile Include="UnitTests\TestCmdReplyParms.vb" />
+    <Compile Include="UnitTests\TestCmdMsgParms.vb" />
+    <Compile Include="UnitTests\TestJRKerrServoStatus.vb" />
+    <Compile Include="UnitTests\TestJRKerrUtil.vb" />
+    <Compile Include="UnitTests\TestJRKerrDeviceCmds.vb" />
+    <Compile Include="UnitTests\TestJRKerrDeviceReplyCmds.vb" />
+    <Compile Include="UnitTests\Test4ReplyCmd.vb" />
+    <Compile Include="UnitTests\Test4Cmd.vb" />
+    <Compile Include="UnitTests\TestAddDevice.vb" />
+    <Compile Include="UnitTests\TestCmdList.vb" />
+    <Compile Include="UnitTests\Test3Cmd.vb" />
+    <Compile Include="UnitTests\Test3ReplyCmd.vb" />
+    <Compile Include="UnitTests\Test1Cmd.vb" />
+    <Compile Include="UnitTests\Test1ReplyCmd.vb" />
+    <Compile Include="UnitTests\Test2ReplyCmd.vb" />
+    <Compile Include="UnitTests\Test2Cmd.vb" />
+    <Compile Include="UnitTests\TestCmds.vb" />
+    <Compile Include="UnitTests\TestSiTechDeviceReplyCmds.vb" />
+    <Compile Include="UnitTests\TestTangentDeviceReplyCmds.vb" />
+    <Compile Include="UnitTests\TestSiTechController.vb" />
+    <Compile Include="UnitTests\TestJRKerrCalc.vb" />
+    <Compile Include="UnitTests\TestSiTechDeviceCmds.vb" />
+    <Compile Include="DeviceBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeviceFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeviceName.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DevicePropContainers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DevicesSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\DevPropBase.vb" />
+    <Compile Include="Devices\Encoder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\EncoderValue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Devices\EncodersBox.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IDevice.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Devices\CustomDevice.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Devices\SiTechController.vb" />
+    <Compile Include="PreLoadConfig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\DevPropCmdSet.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\DevPropIOType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\DevPropName.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\DevPropStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\DevPropType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\IDevProp.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Devices\SensorTypes.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Status\DeviceStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Status\IOStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Status\SensorStatus.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Status\StatusTypeValuePair.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Template\DeviceTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Template\DeviceTemplateArray.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestTreeViewDeviceAdapterForAllDevices.vb" />
+    <Compile Include="UnitTests\TestDeviceObservers.vb" />
+    <Compile Include="UnitTests\TestEncodersBoxBuild.vb" />
+    <Compile Include="UnitTests\TestIOPresenterDevice.vb" />
+    <Compile Include="UnitTests\TestDeviceSettings.vb" />
+    <Compile Include="UnitTests\TestDevicesProperties.vb" />
+    <Compile Include="UnitTests\TestDevPropEncoderValue.vb" />
+    <Compile Include="UnitTests\TestDeviceReceiveCmd.vb" />
+    <Compile Include="UnitTests\TestDevice.vb" />
+    <Compile Include="UnitTests\TestDeviceToIOBridge.vb" />
+    <Compile Include="UnitTests\TestDeviceAdapters.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestTangentDeviceCmds.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestDevices.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="JRKerr\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9BD6725-B92B-43E4-BA84-3EA33E992469}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Forms</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>ScopeIII.Forms</RootNamespace>
+    <StartupObject>ScopeIII.Forms.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Forms.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Forms.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BartelsLibrary, Version=1.0.3375.38010, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\BartelsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <Name>nunit.framework</Name>
+      <HintPath>..\CopiedAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole">
+      <Name>stdole</Name>
+      <HintPath>C:\Program Files\Microsoft.NET\Primary Interop Assemblies\stdole.dll</HintPath>
+      <AssemblyFolderKey>hklm\primary interop assemblies</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\Config\Config.vbproj">
+      <Name>Config</Name>
+      <Project>{FE6DC93D-6D39-41E0-9927-3BC4631F7FD3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Coordinates\Coordinates.vbproj">
+      <Name>Coordinates</Name>
+      <Project>{5F416284-E656-4DC3-857A-5EA0021E672F}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Devices\Devices.vbproj">
+      <Name>Devices</Name>
+      <Project>{445AB76B-240F-4AFC-813D-954720CF5F8F}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\IO\IO.vbproj">
+      <Name>IO</Name>
+      <Project>{98AD0011-580B-45BD-B5B7-CE1A21D6E64D}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ScopeLibrary\ScopeLibrary.vbproj">
+      <Project>{2EBD79BB-BABE-4C13-A120-DB14928EFC7D}</Project>
+      <Name>ScopeLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="BartelsLibrary" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="ScopeIII.Config" />
+    <Import Include="ScopeIII.Coordinates" />
+    <Import Include="ScopeIII.Devices" />
+    <Import Include="ScopeIII.IO" />
+    <Import Include="ScopeLibrary" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2AxisEncoderTranslator\ITwoAxisEncoderTranslatorPresenter.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AxisCoordGaugePresenter.vb" />
+    <Compile Include="CompareZ12\CompareZ12Presenter.vb" />
+    <Compile Include="CompareZ12\FrmCompareZ12.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareZ12\Z12CompareMultiXYDataAdapter.vb" />
+    <Compile Include="Convert\ConvertPresenter.vb" />
+    <Compile Include="Convert\FrmConvert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArcGaugeOK\FrmArcGaugeOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArcGaugeOK\ArcGaugeOKPresenter.vb" />
+    <Compile Include="ArcGaugeOK\TestArcGauge.vb" />
+    <Compile Include="Renderers\LogArcGaugeRendererBase.vb" />
+    <Compile Include="Renderers\LinearArcGaugeRendererBase.vb" />
+    <Compile Include="Renderers\LogArcGaugeRenderer.vb" />
+    <Compile Include="Renderers\TestLogArcGaugeRendererBase.vb" />
+    <Compile Include="RenderScalarGaugesOK\RenderScalarGaugesOKPresenter.vb" />
+    <Compile Include="RenderScalarGaugesOK\FrmRenderScalarGaugesOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFileConverter\FrmDataFileConverter.Designer.vb">
+      <DependentUpon>FrmDataFileConverter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataFileConverter\FrmDataFileConverter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFileConverter\DataFileConverterPresenter.vb" />
+    <Compile Include="EncodersBox\EncodersBoxCtrl\IEncodersBoxCtrlPresenter.vb" />
+    <Compile Include="EncodersBox\EncodersBoxPresenterBase.vb" />
+    <Compile Include="EncodersBox\EncodersBoxSim\IEncodersBoxSimPresenter.vb" />
+    <Compile Include="EncodersBox\EncodersBoxCtrl\FrmEncodersBoxCtrl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EncodersBox\EncodersBoxCtrl\EncodersBoxCtrlPresenter.vb" />
+    <Compile Include="EncodersBox\EncodersBoxSim\EncodersBoxSimPresenter.vb" />
+    <Compile Include="EncodersBox\EncodersBoxSim\FrmEncodersBoxSim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EncodersBox\FrmEncodersBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EncodersBox\IFrmEncodersBox.vb" />
+    <Compile Include="Encoder\FrmEncoder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encoder\EncoderPresenter.vb" />
+    <Compile Include="Enter2AxisCoord\Enter2AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enter2AxisCoord\FrmEnter2AxisCoord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enter3AxisCoord\Enter3AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enter3AxisCoord\FrmEnter3AxisCoord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterCoord\EnterCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterCoord\FrmEnterCoord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterOneTwo\FrmEnterOneTwo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterOneTwo\OneTwoPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterPosition\FrmEnterPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterPosition\PositionPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterSite\FrmEnterSite.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterSite\SitePresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EnterZ123\FrmEnterZ123.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterZ123\Z123Presenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gauge2AxisCoordOK\FrmGauge2AxisCoordOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gauge2AxisCoordOK\Gauge2AxisCoordOKPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Gauge3AxisCoordOK\FrmGauge3AxisCoordOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gauge3AxisCoordOK\Gauge3AxisCoordOKPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GaugeCoordOK\FrmGaugeCoordOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaugeCoordOK\GaugeCoordOKPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RenderCoordGaugesOK\FrmRenderCoordGaugesOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RenderCoordGaugesOK\RenderCoordGaugesOKPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GaugePositionOK\FrmGaugePositionOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaugePositionOK\GaugePositionOKPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\FunctionRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\GraphFunctionParams.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\IFunction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\MultiXYData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\MultiXYDataRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\XYData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Graphics\XYDataRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphOKPropGrid\FrmGraphOKPropGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphOKPropGrid\GraphOKPropGridPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GraphOK\FrmGraphOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphOK\GraphOKPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IOTerminal\FrmIOTerminal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IOTerminal\IOTerminalPresenter.vb" />
+    <Compile Include="MessageBoxCoordinates\MessageBoxCoord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MessageBoxSelectedObject\MessageBoxSelectedObject.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Observers\CoordinateObserver.vb" />
+    <Compile Include="Observers\CoordinateObserverPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observers\FrmCoordinateObserver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Observers\FrmValueObserver.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Observers\ValueObserver.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Observers\ValueObserverPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PrecessDatafiles\FrmPrecessDatafiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrecessDatafiles\PrecessDatafilesPresenter.vb" />
+    <Compile Include="Renderers\GaugeLogValue.vb" />
+    <Compile Include="Renderers\GaugeValueBase.vb" />
+    <Compile Include="Renderers\ScalarArcGaugeRenderer.vb" />
+    <Compile Include="Renderers\ArcGaugeRendererBase.vb" />
+    <Compile Include="Renderers\DegreeArcGaugeRenderer.vb" />
+    <Compile Include="Renderers\GaugeLinearValue.vb" />
+    <Compile Include="Renderers\IGaugeValue.vb" />
+    <Compile Include="UnitTests\GaugeValueTests.vb" />
+    <Compile Include="UnitTests\Endos\EndoTestTwoAxisEncoderTranslatorPresenter.vb" />
+    <Compile Include="UnitTests\Endos\EndoTestUserCtrlEncoderPresenter.vb" />
+    <Compile Include="UnitTests\UserCtrlTerminalPresenterTestBuilder.vb" />
+    <Compile Include="UnitTests\Endos\EndoTestFrmShowSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowSettings\IFrmShowSettings.vb" />
+    <Compile Include="ShowSettings\ISettingsPresenterBuilder.vb" />
+    <Compile Include="UnitTests\Endos\EndoTestUserCtrlTerminal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Endos\EndoTestEncodersBoxSimPresenter.vb" />
+    <Compile Include="UnitTests\Endos\EndoTestEncodersBoxCtrlPresenter.vb" />
+    <Compile Include="UnitTests\EncodersBoxSimCtrlTests.vb" />
+    <Compile Include="UnitTests\DependencyInjectorTests.vb" />
+    <Compile Include="UnitTests\SettingsPresenterTests.vb">
+    </Compile>
+    <Compile Include="UnitTests\Endos\EndoTestUserCtrlTerminalPresenter.vb" />
+    <Compile Include="UnitTests\Endos\EndoTestPropGridPresenter.vb" />
+    <Compile Include="UnitTests\UserCtrlTerminalTests.vb" />
+    <Compile Include="UnitTests\PropGridPresenterTests.vb" />
+    <Compile Include="QueryDatafiles\FrmQueryDatafiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryDatafiles\QueryDatafilesPresenter.vb" />
+    <Compile Include="Renderers\ArcminCircGaugeRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\ArcminSliderRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\AxisColors.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\CoordFrameworkRenderer.vb" />
+    <Compile Include="Renderers\RendererGaugeBase.vb" />
+    <Compile Include="Renderers\DevicePropertyValueObjectRenderer.vb" />
+    <Compile Include="Renderers\ScopePilotAnalyzeFieldRotationAngleRenderer.vb" />
+    <Compile Include="Renderers\IScopePilotAnalyzer.vb" />
+    <Compile Include="Renderers\ScopePilotAnalyzeTrackRateRenderer.vb" />
+    <Compile Include="Renderers\OrthographicProjectionCalculator.vb" />
+    <Compile Include="Renderers\DeclinationCircGaugeRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\Degree0_90VertSliderRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\DegreeCircGaugeRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\DegreeNegCircGaugeRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\DegreeNegSliderRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\DegreeSliderRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\HourCircGaugeRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\IRendererCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\ScopePilotObjectToRender.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\ScopePilotRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\PointData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\RendererCoordGaugeBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\RendererHorizSliderGaugeBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\RendererSliderGaugePrototype.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\RendererVertSliderGaugeBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Renderers\SliderRenderer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Saguaro\FrmSaguaro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Saguaro\SaguaroPresenter.vb" />
+    <Compile Include="ShowCelestialErrors\CelestialErrorsPresenterMediator.vb" />
+    <Compile Include="ShowCelestialErrors\FrmShowCelestialErrorsInput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowCelestialErrors\FrmShowCelestialErrors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowCelestialErrors\ShowCelestialErrorsInputPresenter.vb" />
+    <Compile Include="ShowCelestialErrors\ShowCelestialErrorsPresenter.vb" />
+    <Compile Include="ShowRefractionAirMass\FrmRefractionAirMass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowRefractionAirMass\RefractionAirMassPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShowSettings\FrmShowSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowSettings\SettingsPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ShowSettings\SettingsPresenterBuilder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SliderOK\FrmSliderOK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SliderOK\SliderOKPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SliderOK\TestSliderGauge.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCfg\FrmTestCfg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestException\FrmTestException.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestGraphOK\TestFunction.vb" />
+    <Compile Include="UserCtrls\2AxisCoord\UserCtrl2AxisCoord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\2AxisCoord\UserCtrl2AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\3AxisCoord\UserCtrl3AxisCoord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\3AxisCoord\UserCtrl3AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\AxisEncoderTranslator\AxisEncoderAdapter.vb" />
+    <Compile Include="UserCtrls\AxisEncoderTranslator\UserCtrlAxisEncoderTranslator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\AxisEncoderTranslator\UserCtrlAxisEncoderTranslatorPresenter.vb" />
+    <Compile Include="UserCtrls\Common\Validate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Coordinate\ICoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Coordinate\UserCtrlCoord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Coordinate\UserCtrlCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\2AxisEncoderTranslator\UserCtrl2AxisEncoderTranslator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\2AxisEncoderTranslator\UserCtrl2AxisEncoderTranslatorPresenter.vb" />
+    <Compile Include="UserCtrls\Encoder\IUserCtrlEncoderPresenter.vb" />
+    <Compile Include="UserCtrls\Encoder\UserCtrlEncoder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Encoder\UserCtrlEncoderPresenter.vb" />
+    <Compile Include="UserCtrls\Datafile\UserCtrlDatafile.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Datafile\UserCtrlDatafilePresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Gauge2AxisCoord\IGauge2AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Gauge2AxisCoord\UserCtrlGauge2AxisCoord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Gauge2AxisCoord\UserCtrlGauge2AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Gauge3AxisCoord\IGauge3AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Gauge3AxisCoord\UserCtrlGauge3AxisCoord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Gauge3AxisCoord\UserCtrlGauge3AxisCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\GaugeCoord\UserCtrlGaugeCoord.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\GaugeCoord\UserCtrlGaugeCoordPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\GaugePosition\IGaugePositionPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\GaugePosition\UserCtrlGaugePosition.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\GaugePosition\UserCtrlGaugePositionPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\DGVColumnNames.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Logging\UserCtrlLogging.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\ObjectLibrary\DatafileSort.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\ObjectLibrary\DGVDatafileProperties.vb" />
+    <Compile Include="UserCtrls\ObjectLibrary\UserCtrlObjectLibrary.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\ObjectLibrary\UserCtrlObjectLibraryPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\OneTwo\OneTwoPresenterDataModel.vb" />
+    <Compile Include="UserCtrls\OneTwo\UserCtrlOneTwo.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\OneTwo\UserCtrlOneTwoPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\CelestialErrors\DGVCelestialErrorsProperties.vb" />
+    <Compile Include="UserCtrls\CelestialErrors\CelestialErrorComparer.vb" />
+    <Compile Include="UnitTests\CelestialErrorComparerTests.vb" />
+    <Compile Include="UserCtrls\CelestialErrors\UserCtrlCelestialErrors.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\CelestialErrors\UserCtrlCelestialErrorsPresenter.vb" />
+    <Compile Include="UserCtrls\Position\UserCtrlPosition.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Position\UserCtrlPositionPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\FormsDependencyInjector.vb" />
+    <Compile Include="UserCtrls\PropGrid\IPropGridPresenter.vb" />
+    <Compile Include="UserCtrls\PropGrid\PropGridPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\PropGrid\UserCtrlPropGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Site\UserCtrlSite.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Site\UserCtrlSitePresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Terminal\UserCtrlTerminalPresenterFactory.vb" />
+    <Compile Include="UserCtrls\Terminal\IUserCtrlTerminal.vb" />
+    <Compile Include="UserCtrls\Terminal\DisplayType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Terminal\IUserCtrlTerminalPresenter.vb" />
+    <Compile Include="UserCtrls\Terminal\UserCtrlTerminal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Terminal\UserCtrlTerminalPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Z123\UserCtrlZ123.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrls\Z123\UserCtrlZ123Presenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="2AxisEncoderTranslator\FrmTwoAxisEncoderTranslator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2AxisEncoderTranslator\TwoAxisEncoderTranslatorPresenter.vb" />
+    <EmbeddedResource Include="CompareZ12\FrmCompareZ12.resx">
+      <DependentUpon>FrmCompareZ12.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Convert\FrmConvert.resx">
+      <DependentUpon>FrmConvert.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArcGaugeOK\FrmArcGaugeOK.resx">
+      <DependentUpon>FrmArcGaugeOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenderScalarGaugesOK\FrmRenderScalarGaugesOK.resx">
+      <DependentUpon>FrmRenderScalarGaugesOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataFileConverter\FrmDataFileConverter.resx">
+      <DependentUpon>FrmDataFileConverter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EncodersBox\EncodersBoxCtrl\FrmEncodersBoxCtrl.resx">
+      <DependentUpon>FrmEncodersBoxCtrl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EncodersBox\EncodersBoxSim\FrmEncodersBoxSim.resx">
+      <DependentUpon>FrmEncodersBoxSim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EncodersBox\FrmEncodersBox.resx">
+      <DependentUpon>FrmEncodersBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Encoder\FrmEncoder.resx">
+      <DependentUpon>FrmEncoder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enter2AxisCoord\FrmEnter2AxisCoord.resx">
+      <DependentUpon>FrmEnter2AxisCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enter3AxisCoord\FrmEnter3AxisCoord.resx">
+      <DependentUpon>FrmEnter3AxisCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterCoord\FrmEnterCoord.resx">
+      <DependentUpon>FrmEnterCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterOneTwo\FrmEnterOneTwo.resx">
+      <DependentUpon>FrmEnterOneTwo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterPosition\FrmEnterPosition.resx">
+      <DependentUpon>FrmEnterPosition.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterSite\FrmEnterSite.resx">
+      <DependentUpon>FrmEnterSite.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterZ123\FrmEnterZ123.resx">
+      <DependentUpon>FrmEnterZ123.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gauge2AxisCoordOK\FrmGauge2AxisCoordOK.resx">
+      <DependentUpon>FrmGauge2AxisCoordOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gauge3AxisCoordOK\FrmGauge3AxisCoordOK.resx">
+      <DependentUpon>FrmGauge3AxisCoordOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GaugeCoordOK\FrmGaugeCoordOK.resx">
+      <DependentUpon>FrmGaugeCoordOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RenderCoordGaugesOK\FrmRenderCoordGaugesOK.resx">
+      <DependentUpon>FrmRenderCoordGaugesOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GaugePositionOK\FrmGaugePositionOK.resx">
+      <DependentUpon>FrmGaugePositionOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphOKPropGrid\FrmGraphOKPropGrid.resx">
+      <DependentUpon>FrmGraphOKPropGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphOK\FrmGraphOK.resx">
+      <DependentUpon>FrmGraphOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IOTerminal\FrmIOTerminal.resx">
+      <DependentUpon>FrmIOTerminal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Observers\FrmCoordinateObserver.resx">
+      <DependentUpon>FrmCoordinateObserver.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Observers\FrmValueObserver.resx">
+      <DependentUpon>FrmValueObserver.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrecessDatafiles\FrmPrecessDatafiles.resx">
+      <DependentUpon>FrmPrecessDatafiles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryDatafiles\FrmQueryDatafiles.resx">
+      <DependentUpon>FrmQueryDatafiles.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saguaro\FrmSaguaro.resx">
+      <DependentUpon>FrmSaguaro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowCelestialErrors\FrmShowCelestialErrorsInput.resx">
+      <DependentUpon>FrmShowCelestialErrorsInput.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowCelestialErrors\FrmShowCelestialErrors.resx">
+      <DependentUpon>FrmShowCelestialErrors.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowRefractionAirMass\FrmRefractionAirMass.resx">
+      <DependentUpon>FrmRefractionAirMass.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowSettings\FrmShowSettings.resx">
+      <DependentUpon>FrmShowSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SliderOK\FrmSliderOK.resx">
+      <DependentUpon>FrmSliderOK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestCfg\FrmTestCfg.resx">
+      <DependentUpon>FrmTestCfg.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestException\FrmTestException.resx">
+      <DependentUpon>FrmTestException.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\2AxisCoord\UserCtrl2AxisCoord.resx">
+      <DependentUpon>UserCtrl2AxisCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\3AxisCoord\UserCtrl3AxisCoord.resx">
+      <DependentUpon>UserCtrl3AxisCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\AxisEncoderTranslator\UserCtrlAxisEncoderTranslator.resx">
+      <DependentUpon>UserCtrlAxisEncoderTranslator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Coordinate\UserCtrlCoord.resx">
+      <DependentUpon>UserCtrlCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\2AxisEncoderTranslator\UserCtrl2AxisEncoderTranslator.resx">
+      <DependentUpon>UserCtrl2AxisEncoderTranslator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Encoder\UserCtrlEncoder.resx">
+      <DependentUpon>UserCtrlEncoder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Datafile\UserCtrlDatafile.resx">
+      <DependentUpon>UserCtrlDatafile.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Gauge2AxisCoord\UserCtrlGauge2AxisCoord.resx">
+      <DependentUpon>UserCtrlGauge2AxisCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Gauge3AxisCoord\UserCtrlGauge3AxisCoord.resx">
+      <DependentUpon>UserCtrlGauge3AxisCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\GaugeCoord\UserCtrlGaugeCoord.resx">
+      <DependentUpon>UserCtrlGaugeCoord.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\GaugePosition\UserCtrlGaugePosition.resx">
+      <DependentUpon>UserCtrlGaugePosition.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Logging\UserCtrlLogging.resx">
+      <DependentUpon>UserCtrlLogging.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\ObjectLibrary\UserCtrlObjectLibrary.resx">
+      <DependentUpon>UserCtrlObjectLibrary.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\OneTwo\UserCtrlOneTwo.resx">
+      <DependentUpon>UserCtrlOneTwo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\CelestialErrors\UserCtrlCelestialErrors.resx">
+      <DependentUpon>UserCtrlCelestialErrors.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Position\UserCtrlPosition.resx">
+      <DependentUpon>UserCtrlPosition.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\PropGrid\UserCtrlPropGrid.resx">
+      <DependentUpon>UserCtrlPropGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Site\UserCtrlSite.resx">
+      <DependentUpon>UserCtrlSite.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Terminal\UserCtrlTerminal.resx">
+      <DependentUpon>UserCtrlTerminal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrls\Z123\UserCtrlZ123.resx">
+      <DependentUpon>UserCtrlZ123.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2AxisEncoderTranslator\FrmTwoAxisEncoderTranslator.resx">
+      <DependentUpon>FrmTwoAxisEncoderTranslator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

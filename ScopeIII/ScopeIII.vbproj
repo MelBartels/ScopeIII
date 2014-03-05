@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA92B5C1-DE1E-42A2-AF5B-C14BE5BFEF18}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Icons\ScopeIIIsmall.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ScopeIII</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>ScopeIII</RootNamespace>
+    <StartupObject>ScopeIII.My.MyApplication</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>FE4EB2C7C1A2FBFA5B4C748BB48FEF1CD10B46C3</ManifestCertificateThumbprint>
+    <ManifestKeyFile>ScopeIII_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>D:\Documents and Settings\mbartels\My Documents\Visual Studio 2008\Projects\astro\ScopeIII\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>ScopeIII</ProductName>
+    <PublisherName>BBAstroDesigns Inc</PublisherName>
+    <ApplicationRevision>18</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ScopeIII.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ScopeIII.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScopeLibrary\ScopeLibrary.vbproj">
+      <Project>{2EBD79BB-BABE-4C13-A120-DB14928EFC7D}</Project>
+      <Name>ScopeLibrary</Name>
+    </ProjectReference>
+    <Reference Include="BartelsLibrary, Version=1.0.3375.38010, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\BartelsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.2.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <ProjectReference Include="..\Config\Config.vbproj">
+      <Name>Config</Name>
+      <Project>{FE6DC93D-6D39-41E0-9927-3BC4631F7FD3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Coordinates\Coordinates.vbproj">
+      <Name>Coordinates</Name>
+      <Project>{5F416284-E656-4DC3-857A-5EA0021E672F}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Devices\Devices.vbproj">
+      <Name>Devices</Name>
+      <Project>{445AB76B-240F-4AFC-813D-954720CF5F8F}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Forms\Forms.vbproj">
+      <Name>Forms</Name>
+      <Project>{C9BD6725-B92B-43E4-BA84-3EA33E992469}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\IO\IO.vbproj">
+      <Name>IO</Name>
+      <Project>{98AD0011-580B-45BD-B5B7-CE1A21D6E64D}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="BartelsLibrary" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="ScopeIII.Config" />
+    <Import Include="ScopeIII.Coordinates" />
+    <Import Include="ScopeIII.Devices" />
+    <Import Include="ScopeIII.Forms" />
+    <Import Include="ScopeIII.IO" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="NMCTEST.HLP">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="ScopeIII_TemporaryKey.pfx" />
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainRenderScalarGaugesOK.vb" />
+    <Compile Include="Mains\MainArcGaugeOK.vb" />
+    <Compile Include="Mains\MainJRKerrUtility.vb" />
+    <Compile Include="Mains\MainJRKerrExample.vb" />
+    <Compile Include="Mains\MainDataFileConverter.vb" />
+    <Compile Include="Mains\MainEncodersBoxCtrl.vb" />
+    <Compile Include="Mains\MainEncodersBoxSim.vb" />
+    <Compile Include="Mains\MainEncoder.vb" />
+    <Compile Include="Mains\MainCelestialErrors.vb" />
+    <Compile Include="Misc Forms\SimpleSplashScreen.Designer.vb">
+      <DependentUpon>SimpleSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Misc Forms\SimpleSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mains\MainSaguaro.vb" />
+    <Compile Include="Mains\MainTestThreading.vb" />
+    <Compile Include="Mains\MainTestMsgBox.vb" />
+    <Compile Include="Mains\MainTestCfg.vb" />
+    <Compile Include="Mains\MainTestException.vb" />
+    <Compile Include="Mains\MainGauge2AxisCoordOK.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainGauge3AxisCoordOK.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainGaugeCoordOK.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainCircGaugePositionOK.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainCompareZ12.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainConvert.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestScopeIII\FrmTestScopeIII.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mains\MainIOTerminal.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\Main.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Mains\MainPrecessDatafiles.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainQueryDatafiles.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainRefractionAirMass.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="Misc Forms\StartupShell.Designer.vb">
+      <DependentUpon>StartupShell.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Misc Forms\StartupShell.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mains\MainRenderCoordGaugesOK.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainSliderOK.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Misc Forms\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Misc Forms\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestCommPortSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestDeviceSettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestEnter2AxisCoord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestEnter3AxisCoord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestEnterCoord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestEnterOneTwo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestEnterPosition.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestEnterSite.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestEnterZ123.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestGraphOKPropGrid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestGraphOK.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestIPsettings.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestScopeIII\TestScopeIIIPresenter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mains\MainTestThreadingSubForm.vb" />
+    <Compile Include="UnitTests\DummyTest.vb" />
+    <Compile Include="TestThreading\FrmTestDataGridView.Designer.vb">
+      <DependentUpon>FrmTestDataGridView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestThreading\FrmTestDataGridView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestThreading\FrmTestListView.Designer.vb">
+      <DependentUpon>FrmTestListView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestThreading\FrmTestListView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestThreading\FrmTestThreading.Designer.vb">
+      <DependentUpon>FrmTestThreading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TestThreading\FrmTestThreading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Misc Forms\SimpleSplashScreen.resx">
+      <DependentUpon>SimpleSplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestScopeIII\FrmTestScopeIII.resx">
+      <DependentUpon>FrmTestScopeIII.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc Forms\StartupShell.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StartupShell.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Misc Forms\SplashScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestThreading\FrmTestDataGridView.resx">
+      <DependentUpon>FrmTestDataGridView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestThreading\FrmTestListView.resx">
+      <DependentUpon>FrmTestListView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestThreading\FrmTestThreading.resx">
+      <DependentUpon>FrmTestThreading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Icons\ScopeIII.ico" />
+    <Content Include="Icons\ScopeIIIsmall.ico" />
+    <Content Include="NMCLIB04.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NMCTEST.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="nunit.framework">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

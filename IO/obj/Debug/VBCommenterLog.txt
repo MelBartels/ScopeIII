@@ -1,0 +1,6 @@
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\IO\CommPort\CommBaseSettingsFacade.vb
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\IO\CommPort\CommPort.vb
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\IO\IIO.vb
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\IO\IP\IPsettings.vb
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\IO\Observers\ReceiveInspector.vb
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\IO\PreLoadConfig.vb

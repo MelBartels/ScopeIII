@@ -1,0 +1,21 @@
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\Config\Logging\PreLoadConfig.vb
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\Config\PropContainer.vb
+Parsing file: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\Config\Tests\TestClasses.vb
+The '(' character, hexadecimal value 0x28, cannot begin with a name. Line 4, position 16.
+
+Filename: D:\Documents and Settings\mbartels\My Documents\Visual Studio Projects\ScopeIII\Config\Tests\TestClasses.vb
+
+Signature: Public Class ChildClassConverter
+
+Header: <summary>
+ To display custom data type with collapsible list, use a TypeConverter that converts 
+ between object and string.  Use it with the property definition of the object, ie, 
+ <TypeConverter(GetType(ChildClassConverter))> Public Property ChildClass() As ChildClass... 
+ </summary>
+ <remarks>
+ </remarks>
+ <history>
+ 	[mbartels]	6/22/2005	Created 
+ </history>
+
+Skipping and moving on....

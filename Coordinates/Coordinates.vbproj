@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F416284-E656-4DC3-857A-5EA0021E672F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Coordinates</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>ScopeIII.Coordinates</RootNamespace>
+    <StartupObject>ScopeIII.Coordinates.%28None%29</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Coordinates.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Coordinates.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BartelsLibrary, Version=1.0.3375.38010, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\BartelsLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.2.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CopiedAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <ProjectReference Include="..\Config\Config.vbproj">
+      <Name>Config</Name>
+      <Project>{FE6DC93D-6D39-41E0-9927-3BC4631F7FD3}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <Reference Include="xunit">
+      <HintPath>..\CopiedAssemblies\xunit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="BartelsLibrary" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="ScopeIII.Config" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Security.Permissions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AirMass\AirMassCalculator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\DMSSymbols.vb" />
+    <Compile Include="Datafiles\ConvertDataFile.vb" />
+    <Compile Include="DelegateSigs.vb" />
+    <Compile Include="ErrorCorrections\CelestialErrorsCalculatorFacade.vb" />
+    <Compile Include="SiderealTrackingRates\KingRate.vb" />
+    <Compile Include="SiderealTrackingRates\RatesFacades.vb" />
+    <Compile Include="UnitTests\ConvertDataFileTest.vb" />
+    <Compile Include="UnitTests\RatesFacadesTest.vb" />
+    <Compile Include="UnitTests\AstroTimeTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AstroTime\Time.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonCalcs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordError\CoordError.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordError\CoordErrorArray.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\CoordErrorArrayTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordError\CoordErrorType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\CoordExpBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\CoordExpFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\CoordExpFactoryTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\CoordExpType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Coordinate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordinateParser.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\CoordinatesTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordName.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordXmlTags.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AirMass.vb" />
+    <Compile Include="Position\DisplayPosition.vb" />
+    <Compile Include="ErrorCorrections\CelestialErrorsCalculator.vb" />
+    <Compile Include="UnitTests\CelestialErrorsCalculatorTest.vb" />
+    <Compile Include="UnitTests\ConvertMatrixRecoverInitTest.vb" />
+    <Compile Include="UnitTests\CelestialErrorsCalculatorFacadeTest.vb" />
+    <Compile Include="UnitTests\KingRateTest.vb" />
+    <Compile Include="UnitTests\ZTests.vb" />
+    <Compile Include="UnitTests\TestCloner.vb" />
+    <Compile Include="Refraction\RefractionFromSiteSidT.vb" />
+    <Compile Include="CoordExp\DatafileDMS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\DatafileHMS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Datafiles\DatafileReader.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Datafiles\Library.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Datafiles\Source.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestDatafiles.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Datafiles\DatafileWriter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\Degree.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\DMS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorCorrections\AltOffset.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorCorrections\AnalysisErrors.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorCorrections\BestZ123.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorCorrections\CelestialCoordinateCalcs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorCorrections\NutationAnnualAberration.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorCorrections\Precession.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Z12CompareTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\Z12Test.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\FormattedDegree.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\FormattedDMS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\FormattedHMS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\FormattedHMSM.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\HMS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\HMSM.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\ICoordExp.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\IPositionArrayIO.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\LWPosition.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\LX200LongDeg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\LX200LongHr.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\LX200ShortDeg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\LX200ShortHr.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\LX200SignedLongDeg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\LX200SignedShortDeg.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\Axis.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\ConfigAdapter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\FabErrors.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\FabErrorsTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\IMount.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\MeridianFlip.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\MeridianFlipState.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\MountingTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\MountTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\MountType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mounting\PriAxisAlign.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\Position.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\PositionArray.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\PositionArrayBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\PositionArrayIOBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\PositionArrayIODatafile.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\PositionArrayIODegreeDelimited.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\PositionArrayIOSerialize.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Position\PositionArraySingleton.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\Radian.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Refraction\Refract.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\RefractTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\AlignmentStyleArray.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\CorrectedRatesParmsFacade.vb" />
+    <Compile Include="SiderealTrackingRates\TrackRatesDataModel.vb" />
+    <Compile Include="SiderealTrackingRates\FormulaRates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\IRates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\MatrixRates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\Rates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\RatesBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\RatesFacade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\RatesFacadeTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\RatesFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\SiderealTrackingRatesTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SiderealTrackingRates\TrigRates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Site\Site.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Trajectory\MotionVector.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\TestTrajectory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Trajectory\Trajectory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Trajectory\TrajMoveState.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Vector.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\WholeNumDegree.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\WholeNumHour.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\WholeNumNegDegree.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\WholeNumNegHour.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\AlignmentStyle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\ConvertMatrix.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\ConvertMatrixPresetPosition\ConvertMatrixPresetPositionAltaz.vb" />
+    <Compile Include="XForms\ConvertMatrixPresetPosition\ConvertMatrixPresetPositionEquat.vb" />
+    <Compile Include="UnitTests\ConvertMatrixPresetPositionTest.vb" />
+    <Compile Include="XForms\ConvertSubrType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\ConvertTrig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\CoordXformBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\CoordXformFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\CoordXformFactoryTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\CoordXformType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\ConvertMatrixPresetPosition\ConvertMatrixPresetPositionBase.vb" />
+    <Compile Include="XForms\ConvertMatrixPresetPosition\IConvertMatrixPresetPosition.vb" />
+    <Compile Include="UnitTests\PrecessionNutationAnnualAberrationTest.vb" />
+    <Compile Include="UnitTests\AirMassTest.vb" />
+    <Compile Include="UnitTests\FieldRotationTest.vb" />
+    <Compile Include="XForms\FieldRotation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\ICoordXform.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\IInit.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\IIterLatAngSep.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitConvertMatrixAltazimuth.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitConvertMatrixCelestial.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitConvertMatrixEquatorial.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitDoNothing.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\InitFactoryTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitStateFactory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\InitStateFactoryTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitStateTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitStateType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\InitType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\IterativeLatitude.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\IterLatAngSepAlt.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\IterLatAngSepAz.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\PositionOffset.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XForms\PostInitCalcs.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitTests\XformsTest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\XmHMSM.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoordExp\XmlDMS.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
